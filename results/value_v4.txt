@@ -1,0 +1,16 @@
+   2028 payments: P(4+) 25%, P(3.5) 75%, P(3 or less) 0%; expected lost rebate $100m
+   2029 payments: P(4+) 26%, P(3.5) 61%, P(3 or less) 14%; expected lost rebate $117m
+   2030 payments: P(4+) 12%, P(3.5) 52%, P(3 or less) 35%; expected lost rebate $163m
+Stars cost, 2028-2030 payments, net of the 2027 upside (win 25%, margin share 50%): $0.67 a share
+Since the Oct 8 close the stock is down $0.56
+   if the Oct 8 price already gave the downgrade 0% odds: fair value $8.04
+   if the Oct 8 price already gave the downgrade 25% odds: fair value $8.21
+   if the Oct 8 price already gave the downgrade 50% odds: fair value $8.38
+   if the Oct 8 price already gave the downgrade 75% odds: fair value $8.54
+Central (q 38%): fair value $8.29 vs $8.15
+Grid (rows: margin share; columns: odds already in the Oct 8 price), 25% win odds
+  margin share 25%: q 0%: $8.38  q 25%: $8.46  q 50%: $8.54  q 75%: $8.63
+  margin share 50%: q 0%: $8.04  q 25%: $8.21  q 50%: $8.38  q 75%: $8.54
+  margin share 75%: q 0%: $7.71  q 25%: $7.96  q 50%: $8.21  q 75%: $8.46
+  margin share 100%: q 0%: $7.37  q 25%: $7.71  q 50%: $8.04  q 75%: $8.38
+Growth cost for scale: 5.1 points of H3815's 225,609 members = 11,506 members; at $524 adjusted EBITDA a member, $6.0m a year

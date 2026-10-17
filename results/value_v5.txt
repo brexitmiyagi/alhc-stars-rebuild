@@ -1,0 +1,15 @@
+   2028 payments: P(4+) 25%, P(3.5) 75%, P(3 or less) 0%; expected lost rebate $100m, to margin $74m
+   2029 payments: P(4+) 35%, P(3.5) 42%, P(3 or less) 23%; expected lost rebate $117m, to margin $86m
+   2030 payments: P(4+) 22%, P(3.5) 39%, P(3 or less) 39%; expected lost rebate $155m, to margin $114m
+Stars cost per share, 2028-2030 payments (win 25%, margin share 74%): $0.97
+Net move since the Oct 8 close: -$0.43 = 44% of the cost, so the Oct 8 price already held about 56% odds of a downgrade
+   if it held 25%: fair value $7.98
+   if it held 50%: fair value $8.23
+   if it held 75%: fair value $8.47
+Grid: fair value by margin share (rows) and odds already in the Oct 8 price (columns), 25% win odds
+  margin share 50%: q 25%: $8.22  q 50%: $8.38  q 75%: $8.55
+  margin share 65%: q 25%: $8.07  q 50%: $8.28  q 75%: $8.50
+  margin share 74%: q 25%: $7.98  q 50%: $8.23  q 75%: $8.47
+  margin share 87%: q 25%: $7.86  q 50%: $8.14  q 75%: $8.43
+  margin share 100%: q 25%: $7.73  q 50%: $8.06  q 75%: $8.38
+Range $7.73-$8.55; price $8.28

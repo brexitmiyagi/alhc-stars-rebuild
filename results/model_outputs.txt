@@ -1,0 +1,55 @@
+Estimates        Q3'26E    Q4'26E     FY26E     FY27E     FY28E
+Revenue $m        1,310     1,329     5,210     6,475     7,692
+Adj. MBR          88.7%     88.4%     87.9%     87.8%     87.8%
+Adj. EBITDA $m     20.0      19.2     145.2     205.6     221.0
+Adj. EPS           0.04      0.03      0.45      0.70      0.73
+Net income $m     -10.3     -11.1      26.6      75.3      83.2
+Ending members k   296.5     299.5     299.5     353.4     406.4
+Cash end FY26/27/28: 720 / 919 / 1,132; CFO FY27 235; balance check 0
+
+2027 MBR bridge (bear / base / bull)
+  2026E MBR (model)                87.88% / 87.88% / 87.88%
+  Members in year 1-2, 2026        55.22% / 55.22% / 55.22%
+  Members in year 1-2, 2027        44.38% / 44.38% / 44.38%
+  New vs mature MBR gap            9.21% / 9.21% / 9.21%
+  Maturity (mix) effect            0.00% / -0.50% / -1.00%
+  Rate vs cost trend               0.80% / 0.29% / 0.29%
+  2027 benefit design              0.00% / -0.20% / -0.20%
+  H2-2026 cost pressure carried    0.66% / 0.33% / 0.00%
+  2027E MBR                        89.34% / 87.81% / 86.98%
+
+California TNE check ($m): FY26 / FY27 / FY28
+  CA annualized premium                    4,064 / 5,051 / 6,000
+  CA medical spend                         3,571 / 4,436 / 5,269
+  Required: premium test                   42 / 52 / 61
+  Required: spend test, 0% capitated       149 / 183 / 217
+  Required: spend test, 50% capitated      77 / 95 / 111
+  Required TNE (150%), low case            116 / 142 / 167
+  Required TNE (150%), high case           223 / 275 / 325
+  Estimated regulated net worth            433 / 587 / 753
+  Headroom, low requirement                317 / 445 / 586
+  Headroom, high requirement               210 / 312 / 428
+
+Valuation
+  2027E revenue                      6,475.481
+  2027E MBR                          0.878
+  2027E adj. SG&A ratio              0.090
+  2027E adj. EBITDA                  205.587
+  2027E D&A + interest               51.658
+  2027E adj. net income              153.930
+  Diluted shares 2027 (m)            220.896
+  Peer forward P/E (median)          14.468
+  Peer forward EV/EBITDA (median)    9.505
+  NOL value per share                0.463
+  Parent net debt                    194.600
+  P/E value                          8.126
+  EV/EBITDA value                    7.965
+  Less stars cost                    -0.937
+  12-month price target              7.109
+  Upside / (downside)                -0.141
+  Peer medians: fwd P/E 14.5x (ex-trough 12.9x); fwd EV/EBITDA 9.5x; at 14 Sep 14.3x / 9.5x
+  Price-implied 2027 MBR: now 87.44%, 14 Sep 86.08%, change +1.35 pts
+  Bear: MBR 89.34%, EBITDA 107, EPS 0.25, target $2.54
+  Base: MBR 87.81%, EBITDA 207, EPS 0.70, target $7.15
+  Bull: MBR 86.98%, EBITDA 260, EPS 0.94, target $9.65
+  Grid (P/E rows x MBR cols): 12.0x: 8.71 7.34 6.25 4.61 3.25 1.88 | 13.0x: 9.06 7.64 6.51 4.80 3.38 1.96 | 14.5x: 9.60 8.10 6.89 5.09 3.58 2.08 | 16.0x: 10.13 8.55 7.28 5.37 3.78 2.20 | 17.0x: 10.49 8.85 7.53 5.56 3.92 2.27

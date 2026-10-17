@@ -1,0 +1,10 @@
+path,prior,cost_per_share,fair_value
+A industry,0.31,0.924,8.07
+A industry,0.4,0.924,8.16
+A industry,0.5,0.924,8.25
+"B Alignment, 5.1 pts",0.31,0.216,8.56
+"B Alignment, 5.1 pts",0.4,0.216,8.58
+"B Alignment, 5.1 pts",0.5,0.216,8.6
+"B Alignment, 10 pts",0.31,0.424,8.42
+"B Alignment, 10 pts",0.4,0.424,8.46
+"B Alignment, 10 pts",0.5,0.424,8.5

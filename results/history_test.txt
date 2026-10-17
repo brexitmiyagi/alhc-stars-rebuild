@@ -1,0 +1,16 @@
+event           4+ share next yr window xs   6m xs  12m xs
+CNC 2020     63%-> 42%      33%     +1.0%   29.90    6.68
+MOH 2020     75%-> 36%      44%     -0.8%   19.23   42.38
+UNH 2021     85%-> 73%      98%     +1.7%   -2.29    3.86
+UNH 2023     98%-> 83%      80%     +0.1%    9.40    9.04
+CVS 2023     86%-> 19%      91%     -9.2%   -9.63  -16.25
+CNC 2023     54%->  4%       1%     -3.6%   -6.76   -2.91
+MOH 2023     36%->  1%       1%     +3.1%  -13.37   -0.12
+ELV 2024     68%-> 50%      42%     -1.1%   16.78   15.61
+HUM 2025     95%-> 25%      22%    -18.2%   16.13   27.58
+ELV 2025     53%-> 42%      56%     +0.3%  -11.79   -9.88
+ALHC 2027    100%-> 22%        -    -38.3%       -       -
+CVS Oct 2022: market value lost $16.0bn raw, $12.1bn after peers; CVS put the 2024 cost at $0.8-1.0bn of operating income (8-K, May 2023) = 12x to 15x the one-year hit; its 4+ share recovered to 91% the next year
+MA-heavy events (CVS 2022, HUM 2024): window excess CVS -9.2%, HUM -18.2%; 12 months later CVS -16.2%, HUM +27.6%
+Diversified parents (UNH, ELV, CNC, MOH; 8 events): window excess -3.6% to +3.1%, median +0.2%
+Caveat: HUM's 12-month excess is flattered by the peer basket falling 24.6% from Oct 2024 to Oct 2025; CVS kept lagging after its stars came back.

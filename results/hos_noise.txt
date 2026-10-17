@@ -1,0 +1,7 @@
+Physical health (C04): n=253 contracts, year-on-year correlation 0.24, 2027 cross-contract SD 3.1 pts, same star both years 32%, moved 2+ stars 26%; H3815 79 -> 66 (-13), rank 1 of 253 from the bottom
+Mental health (C05): n=251 contracts, year-on-year correlation 0.20, 2027 cross-contract SD 2.8 pts, same star both years 34%, moved 2+ stars 33%; H3815 82 -> 80 (-2), rank 82 of 251 from the bottom
+Breast cancer screening (C01): n=449 contracts, year-on-year correlation 0.95, 2027 cross-contract SD 9.2 pts, same star both years 71%, moved 2+ stars 0%
+Reducing risk of falling (C15): n=404 contracts, year-on-year correlation 0.85, 2027 cross-contract SD 8.8 pts, same star both years 57%, moved 2+ stars 5%
+PH 1-star contracts in 2026 (n=14) one year later: 1*: 0%, 2*: 57%, 3*: 36%, 4*: 7%, 5*: 0%
+MH 1-star contracts in 2026 (n=31) one year later: 1*: 23%, 2*: 23%, 3*: 35%, 4*: 13%, 5*: 6%
+H3815 back to 4.0+ if only PH and MH move, at those historical odds and everything else held: 66%

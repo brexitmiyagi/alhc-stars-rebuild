@@ -1,0 +1,8 @@
+H3815 measure stars, contested measures: C03=3 (w1), C04=1 (w3), C05=1 (w3), C15=2 (w1), C16=3 (w1), C21=3 (w2), C22=n/a (w2), C23=3 (w2), C24=4 (w2), C26=n/a (w2)
+As published by CMS: weighted mean 3.3600, reward 0.0, CAI +0.0087, raw 3.3687 -> 3.5 stars (thresholds re-derived: raw 3.3687 -> 3.5); distance to the 3.75 line +0.3813
+Without the 10 measures in the lawsuit: weighted mean 3.6333, reward 0.2, CAI +0.0087, raw 4.0687 -> 4.0 stars (thresholds re-derived: raw 4.0687 -> 4.0); distance to the 3.75 line -0.3187
+Without all 19 Clover measures (2027 IDs): weighted mean 3.5714, reward 0.2, CAI +0.0087, raw 4.3149 -> 4.5 stars (thresholds re-derived: raw 4.1149 -> 4.0); distance to the 3.75 line -0.5649
+HEDIS/HOS/CAHPS only (CMS June 2026 approach, approx.): weighted mean 3.3333, reward 0.0, CAI +0.0087, raw 3.3420 -> 3.5 stars (thresholds re-derived: raw 3.3420 -> 3.5); distance to the 3.75 line +0.4080
+Without the 10 measures in the lawsuit, improvement measures excluded: raw 4.0687 -> 4.0
+Without all 19 Clover measures (2027 IDs), improvement measures excluded: raw 4.3149 -> 4.5
+industry: 40 MA-PD contracts move up to 4+ without the 10; 17 fall below 4

@@ -1,0 +1,7 @@
+tie-out part_c: rebuild matches CMS on 514 of 515 contracts (99.8%)
+tie-out part_d_mapd: rebuild matches CMS on 499 of 508 contracts (98.2%)
+tie-out overall: rebuild matches CMS on 503 of 508 contracts (99.0%)
+thresholds overall improvement=True: data m65 3.5829, m85 3.8957, v30 1.0364, v70 1.3600 | CMS m65 3.5455, m85 3.8718, v30 1.0364, v70 1.3785
+thresholds overall improvement=False: data m65 3.6324, m85 3.9014, v30 0.9931, v70 1.3536 | CMS m65 3.6029, m85 3.8955, v30 0.9996, v70 1.3850
+thresholds part_c improvement=True: data m65 3.6383, m85 3.9253, v30 1.0205, v70 1.3687 | CMS m65 3.6111, m85 3.9143, v30 1.0258, v70 1.3860
+thresholds part_c improvement=False: data m65 3.6538, m85 3.9722, v30 1.0457, v70 1.4070 | CMS m65 3.6327, m85 3.9388, v30 1.0572, v70 1.4320

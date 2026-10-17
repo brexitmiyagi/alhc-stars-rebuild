@@ -1,0 +1,5 @@
+scenario,p_4plus,p_3_5,p_3_or_less
+"2028 rules, adherence weight 3",0.2206,0.6263,0.1531
+"2028 rules, adherence weight 1",0.2907,0.5866,0.1227
+2027 rules (for comparison),0.312,0.6194,0.0685
+"2029 rules, two years out",0.1203,0.5249,0.3548

@@ -1,0 +1,6 @@
+breast cancer screening: 2 stars starts at 63%, 5 stars at 83%, 20 points apart
+physical health: 2 stars starts at 67%, 5 stars at 75%, 8 points apart
+mental health: 2 stars starts at 81%, 5 stars at 87%, 6 points apart
+H3815: physical health 66% (1 star), mental health 80% (1 star)
+Smallest combined move that keeps 4 stars: +1 points on physical health and +3 on mental health (4 points), raw 3.84
+Physical health alone would have needed +7 points

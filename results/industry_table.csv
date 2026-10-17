@@ -1,0 +1,7 @@
+group,rated_contracts,oct26_enrollment,pct_in_4plus_published,pct_in_4plus_without_10,contracts_up,contracts_down,qbp_gain_musd,qbp_loss_musd,net_if_symmetric_musd,one_way_musd,qbp_pool_published_musd,kff_gain_musd,kff_loss_musd,kff_net_musd,cash_gain_musd,cash_loss_musd,cash_net_musd
+UnitedHealth,54,9224282,67.9,70.1,5,2,920,-684,236,920,5042,612,-444,168,680,-465,215
+Humana,32,7074807,95.0,94.4,2,2,104,-148,-44,104,5097,68,-96,-28,78,-108,-30
+CVS (Aetna),40,4131173,70.2,49.8,4,4,322,-948,-626,322,2298,209,-616,-407,241,-591,-350
+Elevance,36,1806985,47.1,48.1,2,1,44,-28,16,44,645,29,-18,10,34,-27,7
+Alignment,7,300290,24.9,100.0,1,0,187,0,187,187,71,122,0,122,134,0,134
+All rated MA contracts,568,35218322,70.7,71.3,42,17,2539,-2127,412,2539,20032,1668,-1383,285,1863,-1384,480

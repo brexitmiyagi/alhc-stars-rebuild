@@ -1,0 +1,16 @@
+Gap decay used after 2030: 0.836 a year (matrix implies about 0.55)
+Member economics: gross profit a member $2,137 now, $2,938 mature, $1,336 new; SG&A $1,623; EBITDA a member new $-287, mature $1,316 (average $524)
+Below 4 stars, downgraded vs counterfactual: 2028 75%/0%, 2029 65%/21%, 2030 78%/54%, 2032 64%/47%, 2035 54%/44%, 2040 47%/43%
+v7 as published (matrix, average member)   A $0.92  B5.1 $0.22  B10 $0.42  blend $0.62
+persistence only                           A $1.14  B5.1 $0.27  B10 $0.53  blend $0.77
+tenure economics only                      A $1.03  B5.1 $0.32  B10 $0.64  blend $0.76
+v8 (both)                                  A $1.28  B5.1 $0.40  B10 $0.79  blend $0.94
+
+Stars-adjusted value = Oct 8 close less the part of the cost not already priced
+   A industry           cost $1.28: 31% $7.83  40% $7.94  50% $8.07
+   B Alignment 5.1 pts  cost $0.40: 31% $8.43  40% $8.47  50% $8.51
+   B Alignment 10 pts   cost $0.79: 31% $8.16  40% $8.23  50% $8.31
+   Blend                cost $0.94: 31% $8.06  40% $8.15  50% $8.24
+Central (blend, prior 40%): $8.15; range $7.83-$8.51; price $8.28
+Share of the $4.66 fall since Sep 14 explained by the full stars cost: A 27%, B 9%-17%, blend 20%; unexplained $3.38-$4.26
+2027-ratings case: win -> value $8.36, lose -> $8.08

@@ -1,0 +1,5 @@
+path,cost_per_share,prior_31,prior_40,prior_50
+A industry,1.275,7.83,7.94,8.07
+B Alignment 5.1 pts,0.405,8.43,8.47,8.51
+B Alignment 10 pts,0.794,8.16,8.23,8.31
+Blend,0.937,8.06,8.15,8.24

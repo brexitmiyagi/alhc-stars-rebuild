@@ -1,0 +1,5 @@
+measure,n,yoy_corr,sd_2027,pct_same_star,pct_moved_2plus
+Physical health (C04),253,0.24,3.1,32,26
+Mental health (C05),251,0.2,2.8,34,33
+Breast cancer screening (C01),449,0.95,9.2,71,0
+Reducing risk of falling (C15),404,0.85,8.8,57,5

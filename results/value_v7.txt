@@ -1,0 +1,36 @@
+Good-record transition matrix (4+, 3.5, <=3), 748 contract-years:
+[[0.789 0.194 0.017]
+ [0.381 0.41  0.209]
+ [0.083 0.389 0.528]]
+  payment 2028: actual P(below 4) 0.75  counterfactual 0.00
+  payment 2029: actual P(below 4) 0.65  counterfactual 0.21
+  payment 2030: actual P(below 4) 0.78  counterfactual 0.54
+  payment 2032: actual P(below 4) 0.56  counterfactual 0.47
+  payment 2035: actual P(below 4) 0.46  counterfactual 0.44
+  payment 2040: actual P(below 4) 0.43  counterfactual 0.43
+Rule shift applied to both paths in 2030 payments: [-0.237  0.063  0.174]
+Cost of the Oct 8 news per share: A $0.92 (payments 2028-2030 $0.66; without the shared rule shift $1.21); B $0.22 at 5.1 pts, $0.42 at 10 pts
+Multiple view: 8.8x EV/2026 adj. EBITDA x expected 2028 hit $77m = $3.27 a share; it treats 2028 as permanent, the cash-flow view lets the gap close
+Sensitivities on A: discount 8% / 12%, margin later 0.77, attrition 5%
+   margin later 0.77: $1.08
+   lawsuit 0%: $1.06
+   lawsuit 50%: $0.79
+   discount 8% $1.00, 12% $0.86; attrition 5% $1.00
+
+Fair value = Oct 8 close less the part of the cost the Oct 8 price had not already carried
+   A industry             cost $0.92, prior 31%: fair value $8.07
+   A industry             cost $0.92, prior 40%: fair value $8.16
+   A industry             cost $0.92, prior 50%: fair value $8.25
+                          price-implied prior at $8.28: 53%
+   B Alignment, 5.1 pts   cost $0.22, prior 31%: fair value $8.56
+   B Alignment, 5.1 pts   cost $0.22, prior 40%: fair value $8.58
+   B Alignment, 5.1 pts   cost $0.22, prior 50%: fair value $8.60
+                          price-implied prior at $8.28: none, the price is below this value even with nothing priced in advance
+   B Alignment, 10 pts    cost $0.42, prior 31%: fair value $8.42
+   B Alignment, 10 pts    cost $0.42, prior 40%: fair value $8.46
+   B Alignment, 10 pts    cost $0.42, prior 50%: fair value $8.50
+                          price-implied prior at $8.28: none, the price is below this value even with nothing priced in advance
+Central (A 50%, B 50% split evenly across 5.1 and 10 pts, prior 40%): $8.34; grid $8.07 to $8.60; price $8.28
+If the 2027 case wins (H3815 4 stars for 2028 payments): blended cost $0.34, fair value $8.51
+If it loses for certain: blended cost $0.72, fair value $8.28
+Fall from the Sep 14 close $12.94 to $8.28: $4.66; full stars cost with nothing priced in advance is A $0.92 (20%), B $0.22-$0.42 (5%-9%)

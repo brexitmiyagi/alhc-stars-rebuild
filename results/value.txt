@@ -1,0 +1,10 @@
+Shares 207.4m. Market value at $8.15: $1,691m; EV $1,321m = 8.6x 2026 adjusted EBITDA midpoint
+Since Sep 4 ($13.54): -$1,118m. Oct 9 alone: -$241m. Since the Oct 8 close: -$116m ($0.56 a share)
+Whole 2028 cash hole, no offsets, today's money: $0.55 a share
+Central case (win 30%, margin share 50%, still-low odds 34%): value $8.49; 2028 -0.19, 2029 -0.06, 2027 upside +0.04
+Grid, value per share (rows: share of lost dollars on margin; columns: odds the D.C. cases win)
+  margin share 25%: 0%: $8.53  15%: $8.57  30%: $8.60  45%: $8.64  60%: $8.67
+  margin share 50%: 0%: $8.35  15%: $8.42  30%: $8.49  45%: $8.56  60%: $8.64
+  margin share 75%: 0%: $8.17  15%: $8.28  30%: $8.38  45%: $8.49  60%: $8.60
+  margin share 100%: 0%: $7.99  15%: $8.13  30%: $8.27  45%: $8.42  60%: $8.56
+At 30% win odds the $8.15 price implies 129% of the lost dollars land on margin

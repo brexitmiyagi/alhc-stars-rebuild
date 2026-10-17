@@ -1,0 +1,19 @@
+Rebate a member a month: 4.0 stars 254.01, 3.5 stars 204.65, 3.0 stars 157.42
+Lost rebate a year vs 4 stars at 225,609 members: 3.5 stars $133.6m, 3.0 stars $261.5m
+Base-rate transition matrix (4+, 3.5, 3 or less):
+   0.741 0.221 0.038
+   0.234 0.470 0.297
+   0.052 0.323 0.624
+   2028: P(4+) 25%, P(3.5) 75%, P(3 or less) 0%; expected lost rebate $100m
+   2029: P(4+) 26%, P(3.5) 61%, P(3 or less) 14%; expected lost rebate $123m
+   2030: P(4+) 12%, P(3.5) 52%, P(3 or less) 35%; expected lost rebate $180m
+   2031: P(4+) 23%, P(3.5) 39%, P(3 or less) 38%; expected lost rebate $176m
+   2032: P(4+) 28%, P(3.5) 36%, P(3 or less) 36%; expected lost rebate $173m
+Central (win 25%, margin share 50%): value $7.49 (anchor $8.71 Oct 8 close; stars path -$1.25, 2027 upside +$0.03)
+Grid, value per share (rows: margin share; columns: odds the D.C. cases win)
+  margin share 25%: 0%: $8.05  15%: $8.08  30%: $8.11  45%: $8.14  60%: $8.17
+  margin share 50%: 0%: $7.39  15%: $7.45  30%: $7.51  45%: $7.57  60%: $7.63
+  margin share 75%: 0%: $6.73  15%: $6.82  30%: $6.91  45%: $7.00  60%: $7.09
+  margin share 100%: 0%: $6.07  15%: $6.19  30%: $6.31  45%: $6.43  60%: $6.54
+At 25% win odds the $8.15 price implies 23% of lost rebate dollars come out of margin
+For comparison, 2028 alone at the central inputs costs $0.21 a share; the full path costs $1.25

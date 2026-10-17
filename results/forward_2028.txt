@@ -1,0 +1,28 @@
+1) H3815 holding every 2027 measure star still
+   2027 rules (as published): raw 3.369 -> 3.5 stars | line for 4 stars is 3.75, line for 3 stars is 3.25
+   2028 rules, adherence weight 3: raw 3.266 -> 3.5 stars | line for 4 stars is 3.75, line for 3 stars is 3.25
+   2028 rules, adherence weight 1: raw 3.290 -> 3.5 stars | line for 4 stars is 3.75, line for 3 stars is 3.25
+   2029 rules: raw 3.169 -> 3.0 stars | line for 4 stars is 3.75, line for 3 stars is 3.25
+   Measures leaving in 2028 and H3815's 2027 stars: C32=5, D01=5, C18=4
+   Measures leaving in 2029: C30=2, C31=4, C07=4, C27=4, C28=4, D02=4, D03=4, D07=5, C23=3, C24=4
+   2028 rules without the 10 measures in the suit: raw 3.964 -> 4.0 stars
+   Contested measures leaving: 2028 none; 2029 C23, C24
+2) What physical and mental health need to be (everything else as 2027)
+   PH 1* MH 1*: 2027 rules 3.369->3.5 | 2028 w3 3.266->3.5 | 2028 w1 3.290->3.5 | 2029 3.169->3.0
+   PH 2* MH 2*: 2027 rules 3.449->3.5 | 2028 w3 3.352->3.5 | 2028 w1 3.384->3.5 | 2029 3.277->3.5
+   PH 2* MH 3*: 2027 rules 3.489->3.5 | 2028 w3 3.394->3.5 | 2028 w1 3.801->4.0 | 2029 3.330->3.5
+   PH 3* MH 2*: 2027 rules 3.489->3.5 | 2028 w3 3.394->3.5 | 2028 w1 3.801->4.0 | 2029 3.330->3.5
+   PH 3* MH 3*: 2027 rules 3.886->4.0 | 2028 w3 3.792->4.0 | 2028 w1 3.857->4.0 | 2029 3.774->4.0
+   PH 4* MH 4*: 2027 rules 3.978->4.0 | 2028 w3 3.892->4.0 | 2028 w1 3.968->4.0 | 2029 3.904->4.0
+   PH 5* MH 5*: 2027 rules 4.070->4.0 | 2028 w3 3.992->4.0 | 2028 w1 4.079->4.0 | 2029 4.035->4.0
+3) 2027 measures matched to a 2026 measure by name: 42; unmatched (held at 2027 star): ['C09', 'D12', 'D13']
+   2028 rules, adherence weight 3: P(4+) 22%, P(3.5) 63%, P(3 or less) 15%  {2.5: 0.0, 3.0: 0.153, 3.5: 0.626, 4.0: 0.216, 4.5: 0.005}
+   2028 rules, adherence weight 1: P(4+) 29%, P(3.5) 59%, P(3 or less) 12%  {2.5: 0.0, 3.0: 0.123, 3.5: 0.587, 4.0: 0.28, 4.5: 0.01}
+   2027 rules (for comparison): P(4+) 31%, P(3.5) 62%, P(3 or less) 7%  {3.0: 0.069, 3.5: 0.619, 4.0: 0.303, 4.5: 0.009}
+   2029 rules, two years of draws: P(4+) 12%, P(3.5) 52%, P(3 or less) 35%
+4) Contracts that fell from 4+ to 3.5, and their rating the next year
+   fell in the 2023 ratings: 52 contracts, 25 back at 4+ in 2024, 8 down to 3 or less
+   fell in the 2024 ratings: 52 contracts, 14 back at 4+ in 2025, 9 down to 3 or less
+   fell in the 2025 ratings: 44 contracts, 16 back at 4+ in 2026, 7 down to 3 or less
+   fell in the 2026 ratings: 36 contracts, 10 back at 4+ in 2027, 12 down to 3 or less
+   pooled 2023-2026: 65/184 = 35% back to 4+, 36/184 = 20% fell to 3 or less

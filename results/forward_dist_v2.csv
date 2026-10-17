@@ -1,0 +1,6 @@
+scenario,p_4plus,p_3_5,p_3_or_less
+2027 rules (comparison),0.3943,0.4365,0.1691
+"2028 rules, adherence weight 3",0.3216,0.4312,0.2472
+"2028 rules, adherence weight 1",0.3757,0.408,0.2163
+"2029 rules, two years out",0.217,0.3926,0.3904
+"2028 rules, adherence weight 3, independent",0.221,0.6261,0.1529

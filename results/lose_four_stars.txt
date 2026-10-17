@@ -1,0 +1,19 @@
+Per year, median growth (%) by group
+stars yr | bonus year (Feb Y -> Feb Y+1)                     | display year (Feb Y-1 -> Feb Y)
+2020 | DROP n18 -2.7, STAY n148 5.1, GAIN n50 5.3, LOW n131 -2.2 | DROP 2.6, STAY 5.9, GAIN 4.6, LOW -3.4
+2021 | DROP n29 4.9, STAY n171 3.4, GAIN n16 -0.0, LOW n149 -5.1 | DROP 5.5, STAY 5.4, GAIN -3.1, LOW -2.5
+2022 | DROP n0 -, STAY n187 3.4, GAIN n86 0.4, LOW n92 -5.0 | DROP -46.4, STAY 3.3, GAIN -3.7, LOW -1.4
+2023 | DROP n62 -0.9, STAY n215 2.9, GAIN n14 11.5, LOW n101 -11.2 | DROP 3.9, STAY 3.8, GAIN 10.1, LOW -7.0
+2024 | DROP n55 -1.8, STAY n166 4.4, GAIN n33 6.5, LOW n126 -5.6 | DROP 2.7, STAY 3.2, GAIN 4.4, LOW -6.2
+2025 | DROP n43 -2.9, STAY n155 4.4, GAIN n20 5.5, LOW n162 -5.6 | DROP 4.1, STAY 5.2, GAIN -0.4, LOW -4.8
+
+Pooled bonus year, DROP n 207: median excess -5.1pp, IQR -20.6 to 6.1
+Pooled bonus year, GAIN n 219: median excess 0.0pp
+Pooled bonus year, LOW n 761: median excess -10.0pp
+Enrollment-weighted bonus-year growth: DROP -11.0%, STAY 6.2%, GAIN 5.9%, LOW -7.7%
+DROP contracts that shrank in the bonus year: 52%
+Excluding 2021 (COVID hold-harmless years), DROP n 178: median excess -6.2pp
+Display year, DROP n 232: median excess -0.7pp (the star on the label, before any rebate change)
+
+H3815 stars 2019:4 2020:4.5 2021:4 2022:4 2023:4 2024:4 2025:4 2026:4 2027:3.5
+H3815 Feb enrollment 2019:45486 2020:61253 2021:77320 2022:85904 2023:82071 2024:134458 2025:175671 2026:211962

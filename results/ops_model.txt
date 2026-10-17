@@ -1,0 +1,16 @@
+Price $8.28; market value $1,718m; EV $1,354m (cash $693m, convertible notes $330m)
+Revenue: TTM to June 2026 $4,577m; 2026 guidance midpoint $5,210m; 2027 consensus $6,510m (+25%)
+Adjusted EBITDA: 2026 guidance midpoint $154m (3.0% margin); 2027 implied by consensus EPS $207m (3.2%)
+EV / TTM sales 0.30x (Humana 0.40x, Clover 0.95x); EV / 2026 adj. EBITDA 8.8x; EV / 2027 implied 6.5x
+Stars hit to 2028 margin at the measured 74% share: $99m if the cases lose ($74m expected at 25% win odds) = 48% / 36% of 2027 implied EBITDA
+
+Q3 set-up
+Q3 revenue guide $1300-1320m = +31% to +33% y/y; adj. EBITDA guide $20-30m
+Full-year guide leaves $39-57m of adj. EBITDA for H2 after $106m in H1
+Days claims payable: Q1'25 43.5, Q2'25 47.0, Q1'26 54.1, Q2'26 48.3
+Claims incurred but not paid: $211m (Jun 25) -> $297m (Dec 25) -> $270m (Jun 26); as days of quarterly medical cost: 21.8 -> 21.3
+Prior-year reserve development: Q2'26 $-6.5m (unfavorable), H1'26 +$1.8m
+
+Cash the parent can use
+Consolidated cash and short-term investments $701.7m; at the operating parent $135.4m; dividendable without approval at end-2025 $72.9m; convertible notes $330m due Nov 2029
+EV counting only parent cash: $1,912m = 12.4x 2026 adj. EBITDA

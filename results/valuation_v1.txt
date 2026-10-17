@@ -1,0 +1,22 @@
+Peer medians: forward P/E 14.5x, EV/EBITDA 10.8x; NOL value $0.48/share; parent net debt $195m; stars cost (v8 blend, full) $0.94/share
+H1 2026 adj. gross profit ~$329m (MBR 87.2%); Q2 MBR 86.3%; Q1 ~88.1%
+
+Q3 2026                 Q3 2025 actual   Guidance (mid)    Consensus          Mine
+  Revenue $m                 994        1300-1320           1313          1310
+  MBR                      87.2%        88.3%            n/a              88.7%
+  Adj. EBITDA $m            32.4        20-30            n/a               20.0
+  Adj. EPS                  0.10        n/a                 0.043         0.037
+FY2026 mine: revenue $5,210m, adj. EBITDA $145m (guide 145-163), EPS 0.45 (consensus 0.45 Yahoo / 0.48 S&P)
+
+Assumptions: 2027 revenue $6,500m, adj. SG&A 9.0% of revenue, 2028 revenue +15%, expected 2028 stars hit $39m
+Scenario  2027 MBR  2027 EBITDA  2027 EPS  2028 EBITDA  2028 EPS   P/E value  EV value  Target
+Bear        89.0%         130      0.38         111      0.28       4.66      5.64    4.22
+Base        87.9%         202      0.71         193      0.66       8.32      9.25    7.85
+Bull        87.0%         260      0.99         260      0.97      11.31     12.19   10.82
+Consensus 2027: revenue $6,506m, EPS 0.65 (Yahoo, 17 Oct) / 0.74 (S&P, 9 Oct)
+Each point of 2027 MBR moves 2027 EBITDA $65m and the target $3.30
+
+Price-implied 2027 MBR under the house method: 87.8% (my base 87.9%; 2026 guide midpoint ~87.7%; H2 2026 implied ~88.2%)
+Unexplained fall $3.38-$4.26/share at today's 8.8x EV/EBITDA = $80-100m of EBITDA = 1.2%-1.5% of 2027 revenue, i.e. that many points of MBR
+Unexplained fall $3.38-$4.26/share at the Sep 14 15.1x EV/EBITDA = $47-59m of EBITDA = 0.7%-0.9% of 2027 revenue, i.e. that many points of MBR
+At today's peer multiples the Sep 14 close ($12.94, with 31% odds of the stars cost) implied a 2027 MBR of 86.6%; $8.28 with the full stars cost implies 87.8%: +1.2 points

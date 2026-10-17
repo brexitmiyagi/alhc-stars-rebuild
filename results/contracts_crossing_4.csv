@@ -1,0 +1,60 @@
+contract,parent,oct26_enrollment,stars_published,stars_without_10,risk_score_2024,benchmark_lift_musd_rs1,cash_musd
+H5521,CVS Health Corporation,1040762,4.0,3.5,0.95,854.9,527.9
+H2406,"UnitedHealth Group, Inc.",562971,4.0,3.5,1.076,454.0,317.5
+H3359,"Healthfirst, Inc.",359161,3.5,4.0,1.217,327.0,258.7
+H2802,"UnitedHealth Group, Inc.",411301,3.5,4.0,1.095,324.6,231.0
+H3805,"UnitedHealth Group, Inc.",287472,3.5,4.5,1.06,285.1,211.6
+H8768,"UnitedHealth Group, Inc.",300756,4.0,3.5,0.989,229.5,147.6
+H0543,"UnitedHealth Group, Inc.",249748,3.0,4.0,1.174,214.4,163.6
+H3959,CVS Health Corporation,205661,3.5,4.0,1.215,206.9,163.4
+H3815,"Alignment Healthcare USA, LLC",225609,3.5,4.0,1.099,187.0,133.6
+H7917,BlueCross BlueShield of Tennessee,189059,3.5,4.0,0.993,160.6,103.6
+H3351,"Lifetime Healthcare, Inc.",172139,4.0,3.5,0.917,145.6,86.8
+H5525,Humana Inc.,173448,4.0,3.5,1.112,129.4,93.5
+H2663,CVS Health Corporation,115285,3.5,4.0,1.039,107.0,72.2
+H3449,CuraCor Solutions Corp.,142748,4.0,3.5,0.92,89.5,53.5
+H1608,CVS Health Corporation,118298,4.0,3.5,1.022,84.9,56.4
+H4141,Humana Inc.,125352,3.5,4.0,1.172,82.1,62.6
+H0755,"UnitedHealth Group, Inc.",96395,3.5,4.0,1.08,77.4,54.4
+H6723,MEDICAL MUTUAL OF OHIO,60935,3.5,4.0,1.002,72.7,47.4
+H0354,Health Care Service Corporation,75502,3.5,4.0,1.163,64.5,48.8
+H3817,"Cambia Health Solutions, Inc.",50820,3.5,4.5,0.914,47.6,30.5
+H8889,Medica Holding Company,112279,4.0,3.5,0.956,47.4,29.5
+H0544,"Elevance Health, Inc.",48257,3.5,4.0,1.181,42.3,32.5
+H5591,"Martin's Point Health Care, Inc.",62487,3.5,4.0,0.78,38.0,19.3
+H2322,Henry Ford Health System,40900,3.5,4.0,0.927,36.2,21.8
+H3219,Allina Health and Aetna Insurance Holding Company,56917,3.5,4.0,0.959,34.7,21.6
+H0302,Blue Cross Blue Shield of Arizona,38839,3.5,4.0,1.167,32.4,24.6
+H5471,"Elevance Health, Inc.",32642,4.0,3.0,1.471,28.4,27.2
+H5945,"Universal Health Services, Inc.",23665,3.5,4.0,1.18,23.9,18.4
+R0110,Humana Inc.,38335,3.5,4.0,1.103,22.2,15.9
+H0562,Centene Corporation,23812,3.5,4.0,1.307,20.6,17.5
+H3909,"Independence Health Group, Inc.",22713,4.0,3.5,0.908,19.7,11.6
+H8145,Humana Inc.,28827,4.0,3.5,1.221,18.5,14.7
+H2226,"UnitedHealth Group, Inc.",24287,3.5,4.0,1.636,18.4,19.5
+H8330,"Point32Health, Inc.",15845,3.5,4.0,1.589,12.1,12.5
+H1822,SCAN Group,12254,3.5,4.5,1.331,11.0,10.2
+H5106,Highmark Health,16063,3.5,4.0,1.059,10.6,7.3
+H2686,"Devoted Health, Inc.",10937,3.0,4.0,0.812,9.3,4.9
+H4407,Health Care Service Corporation,14530,4.0,3.5,1.088,8.6,6.1
+H8379,Corewell Health,8484,3.5,4.0,1.473,8.2,7.8
+H8928,"Fallon Community Health Plan, Inc.",10147,3.5,4.0,1.91,7.7,9.6
+H5608,Denver Health and Hospital Authority,5088,3.5,4.0,1.168,7.1,5.4
+H7149,CVS Health Corporation,9836,4.0,3.5,1.081,6.6,4.6
+H5826,Community Health Plan of Washington,8897,3.5,4.0,1.063,5.9,4.1
+H5264,Medica Holding Company,10193,3.5,4.0,1.0,5.5,3.5
+H0978,SCAN Group,6112,3.5,4.5,1.142,5.2,4.2
+H2422,"HealthPartners, Inc.",6500,3.5,4.0,1.595,4.8,5.0
+H5042,"Lifetime Healthcare, Inc.",3696,4.0,3.5,0.802,4.4,2.3
+H3748,CVS Health Corporation,4346,3.5,4.0,0.87,4.3,2.4
+H6586,"Devoted Health, Inc.",7069,3.5,4.0,0.847,4.1,2.3
+H8917,"Devoted Health, Inc.",5077,3.5,4.0,1.0,4.1,2.7
+H1206,CVS Health Corporation,4477,3.5,4.0,1.045,4.1,2.8
+H3557,Blue Cross & Blue Shield of Rhode Island,2461,4.0,3.5,0.825,2.9,1.5
+H6813,"Devoted Health, Inc.",2879,3.5,4.0,0.754,2.2,1.1
+H5991,"EmblemHealth, Inc.",2326,3.5,4.0,1.407,2.1,1.9
+H5593,CVS Health Corporation,4019,4.0,3.5,1.535,2.0,2.0
+H2836,"Elevance Health, Inc.",2445,3.5,4.0,1.109,1.9,1.4
+H7605,"Devoted Health, Inc.",2351,3.5,4.0,0.983,1.9,1.2
+H2816,Centene Corporation,1776,4.0,3.5,1.342,1.1,1.0
+H3186,Sanford Health,2953,3.5,4.0,0.805,1.0,0.5

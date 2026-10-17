@@ -1,0 +1,23 @@
+Good-record transition matrix (4+, 3.5, <=3):
+[[0.789 0.194 0.017]
+ [0.381 0.41  0.209]
+ [0.083 0.389 0.528]]
+long-run shares [0.57  0.284 0.146]; long-run expected rebate loss $76m a year
+EBITDA per member $524 (2026 guidance midpoint / Q2 membership)
+Stars cost per share, full horizon: A industry pattern $3.19 (2028-2030 only $0.89); B Alignment pattern $0.80 at 5.1 pts growth, $1.56 at 10 pts
+Multiple view for comparison: 8.8x x expected 2028 margin hit $77m = $3.27 a share, which treats 2028 as permanent
+
+Fair value = Oct 8 close less the part of the cost not already priced (prior from outside the price)
+   A industry             cost $3.19, prior 31%: fair value $6.51
+   A industry             cost $3.19, prior 40%: fair value $6.80
+   A industry             cost $3.19, prior 50%: fair value $7.12
+                          price-implied prior at $8.28: 87%
+   B Alignment, 5.1 pts   cost $0.80, prior 31%: fair value $8.16
+   B Alignment, 5.1 pts   cost $0.80, prior 40%: fair value $8.23
+   B Alignment, 5.1 pts   cost $0.80, prior 50%: fair value $8.31
+                          price-implied prior at $8.28: 46%
+   B Alignment, 10 pts    cost $1.56, prior 31%: fair value $7.63
+   B Alignment, 10 pts    cost $1.56, prior 40%: fair value $7.77
+   B Alignment, 10 pts    cost $1.56, prior 50%: fair value $7.93
+                          price-implied prior at $8.28: 73%
+Central (equal weight A and B at 5.1 pts, prior 40%): $7.51; price $8.28

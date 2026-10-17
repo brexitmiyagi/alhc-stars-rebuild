@@ -1,0 +1,17 @@
+Operating bridge
+  2026 guidance midpoint: revenue $5,210m, adj. EBITDA $154m (3.0%), year-end members 299,500
+  2027 consensus: revenue $6,510m (+25%); implied adj. EBITDA $207m (3.2%)
+  2027 rate notice +4.98% including risk trend (+2.48% without), so ~19% of 2027 revenue growth has to come from members and mix
+  2028 stars line, H3815 at 3.5 stars, lawsuit lost: A industry pattern -$103m margin (expected at 25% win odds -$77m); B Alignment pattern ~-$6m (growth only)
+  2028 stars line as a share of 2027 implied EBITDA: A 50% full / 37% expected
+
+Parent liquidity against the convertible
+  Notes $330m at 4.25%, due Nov 15 2029; coupon $14.0m a year; 7 coupons left from Nov 2026 = $49.1m
+  Conversion price $16.04 vs $8.28 = 94% above the stock; the notes are debt in practice
+  Parent cash Jun 30 $135.4m; payable from subsidiaries without approval at end-2025 $72.9m; together $208m vs $379m of principal and coupons
+  Gross debt / 2026 adj. EBITDA 2.1x; / (2027 implied less full A-path stars hit) 3.2x
+  EV $1,354m (8.8x 2026, 6.5x 2027 implied); on parent cash only $1,912m (12.4x, 9.2x)
+
+Peer read-through before Alignment's Oct 29 print
+  UNH Q3 (Oct 13): MCR 88.4% vs 89.9% a year earlier; $610m favorable development on 2026 claims; MA members -840k since year-end in the people-served table (-935k including Medicaid-linked programs)
+  Elevance Oct 21 and Centene Oct 27 (dates from secondary calendars); Humana Nov 6 (company release), Humana affirmed 2026 guidance on Oct 9

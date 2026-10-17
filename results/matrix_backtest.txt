@@ -1,0 +1,16 @@
+Test A matrix (378 contract-years):
+[[0.803 0.174 0.023]
+ [0.397 0.448 0.155]
+ [0.048 0.286 0.667]]
+Test A: cohorts in the 2025 ratings
+  1 yr later: dropped (n 24) predicted 60% below 4, actual 54%; held (n 126) predicted 20%, actual 15%; gap predicted +41%, actual +39%
+  2 yr later: dropped (n 23) predicted 50% below 4, actual 52%; held (n 123) predicted 29%, actual 33%; gap predicted +21%, actual +20%
+Matrix used in value_v7 (748 contract-years):
+[[0.789 0.194 0.017]
+ [0.381 0.41  0.209]
+ [0.083 0.389 0.528]]
+Test B (in-sample, shape check): cohorts in the 2023 and 2024 ratings
+  1 yr later: dropped (n 59) predicted 62% below 4, actual 64%; held (n 330) predicted 21%, actual 20%; gap predicted +41%, actual +45%
+  2 yr later: dropped (n 57) predicted 53% below 4, actual 63%; held (n 320) predicted 30%, actual 25%; gap predicted +22%, actual +38%
+  3 yr later: dropped (n 53) predicted 49% below 4, actual 62%; held (n 310) predicted 35%, actual 32%; gap predicted +13%, actual +30%
+  4 yr later: dropped (n 12) predicted 46% below 4, actual 83%; held (n 149) predicted 38%, actual 36%; gap predicted +8%, actual +47%

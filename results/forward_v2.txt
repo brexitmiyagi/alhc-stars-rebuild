@@ -1,0 +1,6 @@
+2027 rules (comparison): P(4+) 39%, P(3.5) 44%, P(3 or less) 17%
+2028 rules, adherence weight 3: P(4+) 32%, P(3.5) 43%, P(3 or less) 25%
+2028 rules, adherence weight 1: P(4+) 38%, P(3.5) 41%, P(3 or less) 22%
+2029 rules, two years out: P(4+) 22%, P(3.5) 39%, P(3 or less) 39%
+2028 rules, adherence weight 3, independent: P(4+) 22%, P(3.5) 63%, P(3 or less) 15%
+rho used: 0.084

@@ -1,0 +1,11 @@
+Baseline (margin_share.py): n 108, median pass-through 0.26
+1. Enrollment-weighted median: 0.23 (n 108 with enrollment)
+2. Matched on year and A/B payment quintile: n 108, median pass-through 0.23
+3. Placebo, year before the change: median 0.06 (0 means no pre-trend)
+   bootstrap 90% interval -0.04 to 0.15
+4. Contracts with 5+ plans: n 59, median pass-through 0.20
+5. H3815 (simple mean of plan rebates, CMS Plan Payment Data):
+   PY2018 $157.83, PY2019 $204.24, PY2020 $195.36, PY2021 $214.27, PY2022 $210.05, PY2023 $209.61, PY2024 $234.82
+   PY2021 (4.5 stars, share 65%->70%): rebate +18.91 vs 4-star peers +17.24 -> relative +1.67; formula +15.03; pass-through 0.11
+   PY2022 (back to 4.0, share 70%->65%): rebate -4.22 vs 4-star peers +18.83 -> relative -23.05; formula -15.30; pass-through 1.51
+6. Two payment years after the drop, still below 4 stars: n 25, median pass-through 0.45

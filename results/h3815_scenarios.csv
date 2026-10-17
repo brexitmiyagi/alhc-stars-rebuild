@@ -1,0 +1,5 @@
+scenario,measures_used,weighted_mean,raw_overall_published_thresholds,stars,raw_overall_rederived_thresholds,stars_rederived,gap_to_3_75
+As published by CMS,43,3.36,3.3687,3.5,3.3687,3.5,0.3813
+Without the 10 measures in the lawsuit,33,3.6333,3.842,4.0,4.0687,4.0,-0.3187
+Without all 19 Clover measures (2027 IDs),24,3.5714,3.7801,4.5,4.1149,4.0,-0.5649
+"HEDIS/HOS/CAHPS only (CMS June 2026 approach, approx.)",27,3.3333,3.342,3.5,3.342,3.5,0.408
