@@ -1,0 +1,63 @@
+item,value,source
+rev_fy2025_musd,3948.719,SEC XBRL us-gaap:Revenues FY2025 (10-K filed 2026-02-27)
+rev_h1_2025_musd,1942.220,SEC XBRL Revenues H1 2025
+rev_q3_2025_musd,993.695,SEC XBRL Revenues Q3 2025
+rev_h1_2026_musd,2570.830,Q2 2026 press release / 10-Q
+rev_q2_2026_musd,1335.633,Q2 2026 press release
+med_q2_2026_musd,1154.676,Q2 2026 press release (medical expenses)
+med_h1_2026_musd,2245.393,Q2 2026 press release
+med_q2_2025_musd,881.740,Q2 2026 press release (prior-year column)
+med_h1_2025_musd,1702.640,Q2 2026 press release (prior-year column)
+mep_2025_03_31_musd,396.734,SEC XBRL LiabilityForClaimsAndClaimsAdjustmentExpense
+mep_2025_06_30_musd,455.154,SEC XBRL LiabilityForClaimsAndClaimsAdjustmentExpense
+mep_2025_12_31_musd,474.569,SEC XBRL LiabilityForClaimsAndClaimsAdjustmentExpense
+mep_2026_03_31_musd,655.967,SEC XBRL LiabilityForClaimsAndClaimsAdjustmentExpense
+mep_2026_06_30_musd,612.748,SEC XBRL / Q2 2026 balance sheet
+ibnr_2025_06_30_musd,211.463,Q2 2026 10-Q note 7 rollforward
+ibnr_2025_12_31_musd,297.368,Q2 2026 10-Q note 7
+ibnr_2026_06_30_musd,269.790,Q2 2026 10-Q note 7
+pyd_q2_2026_musd,-6.532,Q2 2026 10-Q note 7: unfavorable prior-year development excluding PAD (three months)
+pyd_h1_2026_musd,1.847,Q2 2026 10-Q note 7: favorable prior-year development excluding PAD (six months)
+mbr_q2_2026_pct,86.3,Q2 2026 press release
+adj_ebitda_q2_2026_musd,68.145,Q2 2026 press release
+adj_ebitda_h1_2026_musd,105.996,Q2 2026 press release
+guide_q3_2026_rev_low,1300,Q2 2026 press release outlook
+guide_q3_2026_rev_high,1320,Q2 2026 press release outlook
+guide_q3_2026_ebitda_low,20,Q2 2026 press release outlook
+guide_q3_2026_ebitda_high,30,Q2 2026 press release outlook
+guide_fy2026_rev_low,5195,Q2 2026 press release outlook
+guide_fy2026_rev_high,5225,Q2 2026 press release outlook
+guide_fy2026_ebitda_low,145,Q2 2026 press release outlook
+guide_fy2026_ebitda_high,163,Q2 2026 press release outlook
+guide_fy2026_members_low,298000,Q2 2026 press release outlook
+guide_fy2026_members_high,301000,Q2 2026 press release outlook
+members_q2_2026,294100,Q2 2026 press release
+cash_consolidated_2026_06_30_musd,693.453,Q2 2026 balance sheet
+cash_and_st_inv_2026_06_30_musd,701.7,Q2 2026 10-Q liquidity section
+cash_operating_parent_2026_06_30_musd,135.4,"Q2 2026 10-Q liquidity: 'the operating parent company ... had $135.4 million in cash, cash equivalents and short-term investments'"
+dividendable_wo_approval_2025_12_31_musd,72.869,FY2025 10-K regulatory note
+convertible_notes_face_musd,330.0,Q2 2026 10-Q note 8 (4.25% convertible senior notes due Nov 15 2029)
+interest_h1_2026_musd,8.337,Q2 2026 press release
+da_h1_2026_musd,15.719,Q2 2026 press release (adj EBITDA reconciliation)
+sbc_h1_2026_musd,32.193,Q2 2026 press release
+shares_diluted_q2_2026_m,215.024483,Q2 2026 press release (weighted average diluted)
+consensus_rev_2026_musd,5220,S&P Global via StockAnalysis forecast page (as of Oct 9 2026)
+consensus_rev_2027_musd,6510,S&P Global via StockAnalysis forecast page (as of Oct 9 2026)
+consensus_eps_2026,0.48,S&P Global via StockAnalysis (non-GAAP; as of Oct 9 2026)
+consensus_eps_2027,0.74,S&P Global via StockAnalysis (non-GAAP; as of Oct 9 2026)
+price_close_2026_10_16,8.28,"Yahoo chart API; Google Finance (closed Oct 16, 4:00 PM ET) re-checked Oct 17"
+hum_ev_to_sales_ttm,0.40,StockAnalysis HUM statistics (Oct 16 2026)
+hum_ev_to_ebitda_ttm,16.10,StockAnalysis HUM statistics (Oct 16 2026)
+clov_ev_to_sales_ttm,0.95,StockAnalysis CLOV statistics (Oct 13 2026)
+rate_notice_2027_net_pct,2.48,CMS CY2027 MA Rate Announcement (April 2026): average change in payments excluding risk score trend
+rate_notice_2027_with_risk_trend_pct,4.98,CMS CY2027 MA Rate Announcement: including risk score trend
+convert_conversion_rate_per_1000,62.3539,ALHC 8-K Nov 15 2024 (notes terms); 8-K Nov 25 2024 closing
+convert_conversion_price,16.04,"1000/62.3539; 8-K Nov 15 2024 ('approximately $16.04')"
+convert_coupon_pct,4.25,ALHC 8-K Nov 25 2024: 4.25% Convertible Senior Notes due Nov 15 2029; cash/shares/mix at company election
+convert_maturity_year,2029,ALHC 8-K Nov 25 2024 (Nov 15 2029)
+unh_q3_2026_mcr_pct,88.4,UNH Q3 2026 release (Oct 13 2026; SEC 8-K exhibit)
+unh_q3_2025_mcr_pct,89.9,UNH Q3 2026 release prior-year column
+unh_q3_2026_pyd_musd,610,UNH Q3 2026 release: net favorable reserve development (2026 dates of service)
+unh_ma_members_change_since_ye2025_k,-935,UNH Q3 2026 release: MA incl. complex-population programs since year-end 2025
+unh_ma_members_ye2025_k,8445,UNH Q3 2026 release people-served table (Medicare Advantage Dec 31 2025)
+unh_ma_members_q3_2026_k,7605,UNH Q3 2026 release people-served table (Medicare Advantage Sep 30 2026)

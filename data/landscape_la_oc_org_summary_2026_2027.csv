@@ -1,0 +1,29 @@
+org,county,year,n_general_mapd,zero_premium_share,median_moop,min_moop_zero_premium,median_part_d_deductible,share_zero_part_d_deductible
+Alignment,Los Angeles,2026,11,0.91,2899,498,0,0.91
+Alignment,Orange,2026,10,0.90,2899,498,0,0.90
+UnitedHealth,Los Angeles,2026,5,0.60,800,800,355,0.00
+UnitedHealth,Orange,2026,4,0.75,800,800,355,0.00
+Humana,Los Angeles,2026,5,0.80,3400,410,615,0.40
+Humana,Orange,2026,5,0.80,3400,410,615,0.40
+SCAN,Los Angeles,2026,8,0.75,999,199,250,0.00
+SCAN,Orange,2026,6,0.67,999,199,250,0.00
+Kaiser,Los Angeles,2026,2,1.00,699,699,0,1.00
+Kaiser,Orange,2026,2,1.00,699,699,0,1.00
+Elevance,Los Angeles,2026,6,1.00,1000,499,115,0.17
+Elevance,Orange,2026,6,1.00,1000,499,115,0.17
+CVS,Los Angeles,2026,7,0.86,599,299,615,0.00
+CVS,Orange,2026,6,0.83,599,599,615,0.00
+Alignment,Los Angeles,2027,12,0.75,2499,498,0,0.50
+Alignment,Orange,2027,10,0.80,1499,498,0,0.50
+UnitedHealth,Los Angeles,2027,5,0.80,800,800,595,0.00
+UnitedHealth,Orange,2027,5,0.80,800,800,595,0.00
+Humana,Los Angeles,2027,6,0.83,2700,799,700,0.00
+Humana,Orange,2027,6,0.83,2700,799,700,0.00
+SCAN,Los Angeles,2027,10,0.80,999,299,370,0.00
+SCAN,Orange,2027,9,0.78,999,299,370,0.00
+Kaiser,Los Angeles,2027,2,1.00,999,999,0,1.00
+Kaiser,Orange,2027,2,1.00,999,999,0,1.00
+Elevance,Los Angeles,2027,6,1.00,1000,800,145,0.00
+Elevance,Orange,2027,6,1.00,1000,800,145,0.00
+CVS,Los Angeles,2027,5,0.80,599,299,400,0.00
+CVS,Orange,2027,4,0.75,599,599,300,0.00

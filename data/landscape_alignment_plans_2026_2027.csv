@@ -1,0 +1,43 @@
+year,county,plan,plan_name,plan_type,snp,monthly_premium,moop,part_d_deductible
+2026,Los Angeles,H3815_001_0,My Choice,HMO,No,0.00,498,0
+2026,Los Angeles,H3815_008_0,Platinum + Instacart,HMO,No,0.00,499,0
+2026,Los Angeles,H3815_010_0,Heart & Diabetes,HMO C-SNP,Yes,0.00,1499,0
+2026,Los Angeles,H3815_013_0,smartHMO,HMO,No,0.00,2499,0
+2026,Los Angeles,H3815_033_0,Balance,HMO C-SNP,Yes,0.00,1499,0
+2026,Los Angeles,H3815_034_0,the ONE,HMO,No,0.00,3400,0
+2026,Los Angeles,H3815_039_0,Heart & Diabetes CalPlus,HMO C-SNP,Yes,12.00,9250,615
+2026,Los Angeles,H3815_041_0,BreathEasy,HMO C-SNP,Yes,12.00,9250,615
+2026,Los Angeles,H3815_042_0,Clarity,HMO C-SNP,Yes,12.00,9250,615
+2026,Los Angeles,H3815_044_0,Heart & Diabetes Access,HMO C-SNP,Yes,12.00,9250,615
+2026,Los Angeles,H3815_047_0,smartSavings,HMO,No,0.00,2899,0
+2026,Los Angeles,H3815_049_0,My Choice Select,HMO,No,0.00,798,0
+2026,Los Angeles,H3815_050_0,My Choice CalCare,HMO,No,0.00,3499,0
+2026,Los Angeles,H3815_051_0,Heart & Diabetes Choice,HMO C-SNP,Yes,0.70,9250,615
+2026,Los Angeles,H3815_052_0,Honor+ Plan,HMO,No,0.00,9250,615
+2026,Los Angeles,H3815_053_0,ValorCare,HMO,No,0.00,6000,0
+2026,Los Angeles,H3815_054_0,Heart & Diabetes Care,HMO C-SNP,Yes,0.00,990,0
+2026,Los Angeles,H3815_055_0,L.A. Premium Giveback,HMO,No,0.00,2400,0
+2026,Los Angeles,H8832_001_0,Advantage PPO,PPO,No,45.00,4201,0
+2027,Los Angeles,H3815_001_0,My Choice 001,HMO,No,0.00,550,0
+2027,Los Angeles,H3815_008_0,Platinum + Instacart 008,HMO,No,0.00,499,0
+2027,Los Angeles,H3815_010_0,Heart & Diabetes 010,HMO C-SNP,Yes,0.00,1900,0
+2027,Los Angeles,H3815_013_0,Smart 013,HMO,No,0.00,2499,0
+2027,Los Angeles,H3815_033_0,Balance 033,HMO C-SNP,Yes,0.00,1499,0
+2027,Los Angeles,H3815_039_0,Heart & Diabetes Plus 039,HMO C-SNP,Yes,7.30,9850,700
+2027,Los Angeles,H3815_041_0,BreathEasy Plus 041,HMO C-SNP,Yes,0.00,9850,700
+2027,Los Angeles,H3815_042_0,Clarity Plus 042,HMO C-SNP,Yes,7.30,9850,700
+2027,Los Angeles,H3815_044_0,Heart & Diabetes Plus 044,HMO C-SNP,Yes,0.00,9850,700
+2027,Los Angeles,H3815_047_0,Smart 047,HMO,No,0.00,2899,700
+2027,Los Angeles,H3815_050_0,My Choice 050,HMO,No,0.00,3499,0
+2027,Los Angeles,H3815_051_0,Heart & Diabetes 051,HMO C-SNP,Yes,0.10,9850,700
+2027,Los Angeles,H3815_053_0,ValorCare 053,HMO,No,0.00,6000,0
+2027,Los Angeles,H3815_054_0,Heart & Diabetes 054,HMO C-SNP,Yes,0.00,990,0
+2027,Los Angeles,H3815_055_0,Smart 055,HMO,No,0.00,2400,700
+2027,Los Angeles,H3815_060_0,Honor Plus 060,HMO,No,7.30,9850,700
+2027,Los Angeles,H6697_001_0,Central Health Harmony 001,HMO,No,0.00,498,700
+2027,Los Angeles,H6697_002_0,Central Health Harmony Plus 002,HMO C-SNP,Yes,7.30,9850,700
+2027,Los Angeles,H6697_003_0,BRIDGE 003,HMO,No,0.00,499,700
+2027,Los Angeles,H8832_001_0,Advantage 001,PPO,No,70.00,4451,0
+2027,Los Angeles,H8832_005_0,Advantage 005,PPO,No,160.00,4451,700
+2027,Orange,H6697_004_0,Platinum Preferred 004,HMO,No,0.00,999,700
+2027,Orange,H6697_005_0,Platinum Preferred+ 005,HMO,No,99.00,1499,700

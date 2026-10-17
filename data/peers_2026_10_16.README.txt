@@ -1,0 +1,1 @@
+# source: Yahoo Finance quoteSummary (price, defaultKeyStatistics, financialData, earningsTrend) and chart API, pulled 17 Oct 2026. Consensus EPS are as of 17 Oct; September consensus not available, so Sep 14 multiples use today's EPS.

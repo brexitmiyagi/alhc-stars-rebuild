@@ -1,0 +1,9 @@
+improvement,new_measures,percentile,part_c,part_d_mapd,part_d_pdp,overall,kind
+with,with,65,3.611111,3.642857,3.347826,3.545455,mean
+with,with,85,3.914286,4.000000,3.695652,3.871795,mean
+without,with,65,3.632653,3.695652,3.555556,3.602941,mean
+without,with,85,3.938776,4.047619,3.833333,3.895522,mean
+with,with,30,1.025769,0.885960,1.134216,1.036449,variance
+with,with,70,1.386039,1.419111,1.671918,1.378508,variance
+without,with,30,1.057235,0.838095,0.781250,0.999552,variance
+without,with,70,1.432037,1.363314,1.500000,1.385046,variance

@@ -1,0 +1,46 @@
+measure,weight,category
+C01,1,Process
+C02,1,Process
+C03,1,Process
+C04,3,Outcome
+C05,3,Outcome
+C06,1,Process
+C07,1,Process
+C08,1,Process
+C09,1,Process (new)
+C10,1,Process
+C11,1,Process
+C12,3,Intermediate Outcome
+C13,1,Process
+C14,3,Intermediate Outcome
+C15,1,Process
+C16,1,Process
+C17,3,Outcome
+C18,1,Process
+C19,1,Process
+C20,1,Process
+C21,2,Patient Experience
+C22,2,Patient Experience
+C23,2,Patient Experience
+C24,2,Patient Experience
+C25,2,Patient Experience
+C26,2,Patient Experience
+C27,2,Patient Experience/Complaints
+C28,2,Patient Experience/Complaints
+C29,5,Improvement
+C30,2,Access
+C31,2,Access
+C32,2,Access
+D01,2,Access
+D02,2,Patient Experience/Complaints
+D03,2,Patient Experience/Complaints
+D04,5,Improvement
+D05,2,Patient Experience
+D06,2,Patient Experience
+D07,1,Process
+D08,3,Intermediate Outcome
+D09,3,Intermediate Outcome
+D10,3,Intermediate Outcome
+D11,1,Process
+D12,1,Process (new)
+D13,1,Process (new)

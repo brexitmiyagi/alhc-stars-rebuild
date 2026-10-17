@@ -1,0 +1,20 @@
+measure,name,group
+C03,Annual Flu Vaccine,rulemaking
+C04,Improving or Maintaining Physical Health,rulemaking
+C05,Improving or Maintaining Mental Health,rulemaking
+C15,Reducing the Risk of Falling,rulemaking
+C16,Improving Bladder Control,rulemaking
+C21,Getting Needed Care,rulemaking
+C22,Getting Appointments and Care Quickly,rulemaking
+C23,Customer Service,rulemaking
+C24,Rating of Health Care Quality,rulemaking
+C26,Care Coordination,rulemaking
+C31,Reviewing Appeals Decisions,data_source
+C32,Call Center Interpreter and TTY (Part C),data_source
+D01,Call Center Interpreter and TTY (Part D),data_source
+D05,Rating of Drug Plan,data_source
+D06,Getting Needed Prescription Drugs,data_source
+D08,Medication Adherence Diabetes,data_source
+D09,Medication Adherence Hypertension,data_source
+D10,Medication Adherence Statins,data_source
+D11,Statin Use in Persons with Diabetes,data_source

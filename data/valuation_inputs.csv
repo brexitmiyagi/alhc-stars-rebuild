@@ -1,0 +1,33 @@
+item,value,source
+peer_UNH_pe_fwd2027,17.28,"Yahoo Finance quoteSummary (price / FY2027 consensus EPS), pulled 17 Oct 2026; price 401.43, EPS 23.229"
+peer_HUM_pe_fwd2027,24.18,"Yahoo, 17 Oct 2026; price 413.16, EPS 17.088"
+peer_ELV_pe_fwd2027,14.47,"Yahoo, 17 Oct 2026; price 428.26, EPS 29.600"
+peer_CVS_pe_fwd2027,10.82,"Yahoo, 17 Oct 2026; price 92.36, EPS 8.535"
+peer_CNC_pe_fwd2027,12.93,"Yahoo, 17 Oct 2026; price 69.16, EPS 5.348"
+peer_MOH_pe_fwd2027,24.25,"Yahoo, 17 Oct 2026; price 207.36, EPS 8.551"
+peer_CI_pe_fwd2027,9.03,"Yahoo, 17 Oct 2026; price 302.30, EPS 33.485"
+peer_UNH_ev_ebitda_ttm,14.161,Yahoo defaultKeyStatistics enterpriseToEbitda 17 Oct 2026
+peer_HUM_ev_ebitda_ttm,11.276,Yahoo 17 Oct 2026
+peer_ELV_ev_ebitda_ttm,10.397,Yahoo 17 Oct 2026
+peer_CVS_ev_ebitda_ttm,10.832,Yahoo 17 Oct 2026
+peer_CNC_ev_ebitda_ttm,5.06,Yahoo 17 Oct 2026
+peer_MOH_ev_ebitda_ttm,15.031,Yahoo 17 Oct 2026
+peer_CI_ev_ebitda_ttm,8.214,Yahoo 17 Oct 2026
+cons_q3_2026_eps_yahoo,0.0425,"Yahoo earningsTrend 17 Oct 2026, 4 analysts (0.06 seven days earlier)"
+cons_q3_2026_rev_yahoo_musd,1313.08,"Yahoo earningsTrend 17 Oct 2026, 11 analysts"
+cons_fy2026_eps_yahoo,0.4525,"Yahoo 17 Oct 2026 (0.495 seven days earlier); S&P via StockAnalysis 0.48 on 9 Oct"
+cons_fy2026_rev_yahoo_musd,5217.91,Yahoo 17 Oct 2026; S&P 5.22bn on 9 Oct
+cons_fy2027_eps_yahoo,0.65,"Yahoo 17 Oct 2026, 4 analysts (0.7525 seven days earlier); S&P via StockAnalysis 0.74 on 9 Oct"
+cons_fy2027_rev_yahoo_musd,6505.68,Yahoo 17 Oct 2026; S&P 6.51bn on 9 Oct
+q3_2025_rev_musd,993.695,ALHC 8-K 30 Oct 2025 exhibit 99.1
+q3_2025_adj_gp_musd,127.456,ALHC 8-K 30 Oct 2025 exhibit 99.1
+q3_2025_adj_ebitda_musd,32.439,ALHC 8-K 30 Oct 2025 exhibit 99.1
+guide_q3_2026_adj_gp_low,148,ALHC Q2 2026 release / call (30 Jul 2026)
+guide_q3_2026_adj_gp_high,158,ALHC Q2 2026 release / call
+guide_q3_2026_members_low,295500,ALHC Q2 2026 call
+guide_q3_2026_members_high,297500,ALHC Q2 2026 call
+guide_fy2026_adj_gp_low,630,ALHC Q2 2026 call
+guide_fy2026_adj_gp_high,650,ALHC Q2 2026 call
+q2_2026_adj_gp_musd,183,ALHC Q2 2026 call (MarketBeat summary)
+embedded_gp_potential_musd,880,"ALHC Q2 2026 call: embedded gross-profit potential of current membership ~$880m vs $640m 2026 guide midpoint; about half of members in first or second year"
+federal_nol_musd,617.001,ALHC 10-K 2025 income tax note

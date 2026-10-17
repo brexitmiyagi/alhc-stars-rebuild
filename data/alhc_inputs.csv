@@ -1,0 +1,12 @@
+item,value,source
+price_close_2026_09_04,13.54,StockAnalysis daily history (S&P Global Market Intelligence)
+price_close_2026_10_08,8.71,StockAnalysis daily history
+price_close_2026_10_09,7.55,StockAnalysis daily history
+price_close_2026_10_15,8.15,StockAnalysis daily history
+shares_outstanding_2026_07_27,207435149,ALHC 10-Q for Q2 2026 cover page (SEC XBRL dei:EntityCommonStockSharesOutstanding)
+cash_2026_06_30_musd,693.453,ALHC 10-Q Q2 2026 (SEC XBRL CashAndCashEquivalentsAtCarryingValue)
+long_term_debt_2026_06_30_musd,324.056,ALHC Q2 2026 press release balance sheet (8-K exhibit 99.1)
+fy26_adj_ebitda_low_musd,145,ALHC Q2 2026 press release outlook
+fy26_adj_ebitda_high_musd,163,ALHC Q2 2026 press release outlook
+federal_nol_2025_12_31_musd,617.001,ALHC 10-K 2025 income tax note
+h3815_enrollment_2026_10,225609,CMS Monthly Enrollment by Contract October 2026
