@@ -17,9 +17,10 @@ P('\n2027 MBR bridge (bear / base / bull)')
 for r in range(4, 13):
     v = [B.cell(r, c).value for c in (2, 3, 4)]
     P(f"  {B.cell(r, 1).value:32s} " + ' / '.join(f'{x:.2%}' for x in v))
-P('\nCalifornia TNE check ($m): FY26 / FY27 / FY28')
-for r in range(5, 15):
-    P(f"  {S.cell(r, 1).value:40s} " + ' / '.join(f'{S.cell(r, c).value:,.0f}' for c in (2, 3, 4)))
+P('\nCapital check ($m): FY26 / FY27 / FY28')
+for r in range(5, 17):
+    fmt = '{:,.2f}x' if r == 16 else '{:,.0f}'
+    P(f"  {S.cell(r, 1).value:48s} " + ' / '.join(fmt.format(S.cell(r, c).value) for c in (2, 3, 4)))
 P('\nValuation')
 for r in range(16, 32):
     P(f"  {V.cell(r, 1).value:34s} {V.cell(r, 2).value:,.3f}")

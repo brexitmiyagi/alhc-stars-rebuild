@@ -240,7 +240,7 @@ M.freeze_panes = 'C4'
 # ---------------- Statutory capital ----------------
 S = wb.create_sheet('Statutory Capital')
 S['A1'] = 'California tangible net equity (TNE) check, Knox-Keene formula as described in the Q2 2026 10-Q, note 11'; S['A1'].font = BOLD
-S['A2'] = 'Required = 150% of the largest of $1m; 2% of first $150m of annualized premium + 1% above; 8% of first $150m of non-capitated health care spend + 4% above. Amounts are not disclosed; this is an outside estimate.'; S['A2'].font = fn()
+S['A2'] = 'Required = 150% of the largest of $1m; 2% of first $150m of annualized premium + 1% above; 8% of first $150m of non-capitated health care spend + 4% above. Per-plan amounts are not disclosed. The 10-K gives the aggregate: regulatory capital $268.5m vs a $116.1m minimum at 31 Dec 2025 (data/regulatory_capital.csv).'; S['A2'].font = fn()
 for j, h in enumerate(['Line', 'FY26E', 'FY27E', 'FY28E', 'Note']):
     c = S.cell(4, 1 + j, h); c.font = BOLD; c.fill = HDR
 mc = {'B': 'P', 'C': 'Q', 'D': 'R'}
@@ -252,9 +252,11 @@ lines = [
  ('Required: spend test, 50% capitated', lambda m: None, '8% / 4% on half the spend'),
  ('Required TNE (150%), low case', lambda m: None, 'Max of premium test and 50%-capitated spend test'),
  ('Required TNE (150%), high case', lambda m: None, 'Max of premium test and 0%-capitated spend test'),
- ('Estimated regulated net worth', lambda m: f"=Model!{m}42+Model!{m}40-{inp('parent_cash')}-(32.06+4.55)", 'Equity + parent debt - parent cash - goodwill/intangibles (rough)'),
+ ('Regulatory capital (filed YE25, plus net income)', lambda m: None, '10-K FY2025: $268.5m at 31 Dec 2025, rolled forward with consolidated net income (all subsidiaries, all states)'),
  ('Headroom, low requirement', lambda m: None, ''),
  ('Headroom, high requirement', lambda m: None, ''),
+ ('Minimum, all states, at the 2025 ratio to revenue', lambda m: f"=116.09/3948.719*Model!{m}8", '10-K FY2025: $116.1m minimum on $3,948.7m revenue'),
+ ('Cover vs that minimum (x)', lambda m: None, 'Filed 2.31x at YE25 (2.08x YE24)'),
 ]
 for i, (lab, f, note) in enumerate(lines):
     r = 5 + i; S.cell(r, 1, lab).font = fn(); S.cell(r, 5, note).font = fn()
@@ -266,8 +268,10 @@ for i, (lab, f, note) in enumerate(lines):
         elif i == 6: v = f"=1.5*MAX(1,{col}7,{col}8)"
         elif i == 8: v = f"={col}12-{col}10"
         elif i == 9: v = f"={col}12-{col}11"
+        elif i == 7: v = ("=268.515+Model!P22" if col == 'B' else f"={chr(ord(col)-1)}12+Model!{m}22")
+        elif i == 11: v = f"={col}12/{col}15"
         else: v = f(m)
-        S[f'{col}{r}'] = v; S[f'{col}{r}'].number_format = NUM; S[f'{col}{r}'].font = fn()
+        S[f'{col}{r}'] = v; S[f'{col}{r}'].number_format = '0.00"x"' if i == 11 else NUM; S[f'{col}{r}'].font = fn()
 S.column_dimensions['A'].width = 40; S.column_dimensions['E'].width = 60
 
 # ---------------- Valuation ----------------
