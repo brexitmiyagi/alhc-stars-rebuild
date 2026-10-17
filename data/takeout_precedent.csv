@@ -1,0 +1,6 @@
+item,value,source
+bright_ca_ma_gross_price_musd,500.0,"Bright Health Group 8-K filed 5 Jan 2024, Ex 99.1 pro forma: sale of California MA business to Molina for a gross purchase price of $500.0 million (https://www.sec.gov/Archives/edgar/data/1671284/000167128424000007/ex-991proformafinancials.htm)"
+bright_tne_shortfall_adj_musd,-57.326,"same exhibit, note (a): tangible net equity estimated adjustment"
+bright_contingent_on_stars_musd,110.0,"same exhibit, note (a)(2): released on consolidation of BND into CHP or a 2025 Part D summary rating of at least 3 stars"
+bright_ca_ma_premium_revenue_2022_musd,1586.548,"same exhibit: premium revenue eliminated for the California MA business, FY2022"
+bright_ca_ma_members_at_close,109000,"Molina 8-K 2 Jan 2024, Ex 99.1: 'served more than 109,000 members' at closing"

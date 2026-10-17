@@ -1,0 +1,9 @@
+ticker,price_2026_10_16,shares_m,ebitda_2027_cons_musd,net_debt_2025_musd,adj_eps_2027_yahoo,eps_2027_ms,eps_2028_ms,ms_page_quote_date,source
+UNH,401.43,897.594847,33741,50268,23.229,21.74,25.3,2026-10-16,"MarketScreener finances page (S&P Global consensus), fetched 17 Oct 2026; price and shares from peers_2026_10_16.csv (Yahoo)"
+HUM,413.16,120.080308,4054,8169,17.088,16.24,25.03,2026-09-30,"MarketScreener finances page, fetched 17 Oct 2026 (page quote dated 30 Sep)"
+ELV,428.26,216.86929,10620,22555,29.600,27.68,32.47,2026-09-15,"MarketScreener finances page, fetched 17 Oct 2026 (page quote dated 15 Sep)"
+CVS,92.36,1278.970369,20738,53972,8.535,7.225,8.506,2026-09-25,"MarketScreener finances page (Munich listing, USD figures), fetched 17 Oct 2026"
+CNC,69.16,493.995,3255,-487,5.348,4.153,5.915,2026-10-09,"MarketScreener finances page (Munich listing, USD figures), fetched 17 Oct 2026"
+MOH,207.36,52.2,1004,-482,8.551,8.551,13.07,2026-10-05,"MarketScreener finances page, fetched 17 Oct 2026"
+CI,302.3,264.240486,14124,23787,33.485,28.15,31.01,2026-10-05,"MarketScreener finances page, fetched 17 Oct 2026"
+ALHC,8.28,207.435149,205.9,-253,0.65,0.3617,0.3625,2026-10-16,"MarketScreener finances page, fetched 17 Oct 2026 (EBITDA consensus is company-adjusted, before stock pay)"

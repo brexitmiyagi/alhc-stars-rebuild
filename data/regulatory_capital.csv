@@ -1,0 +1,15 @@
+item,value,source
+regulatory_capital_2025_12_31_musd,268.515,"ALHC 10-K FY2025, note Regulatory Requirements and Restricted Funds (XBRL R18): aggregate regulatory capital of state-regulated subsidiaries"
+regulatory_capital_2024_12_31_musd,156.167,same note
+min_requirement_2025_12_31_musd,116.090,same note: aggregate minimum regulatory requirements
+min_requirement_2024_12_31_musd,75.212,same note
+dividendable_2025_12_31_musd,72.869,same note: undistributed dividends payable to parent without approval
+dividendable_2024_12_31_musd,46.785,same note
+parent_investment_in_subsidiary_2025_12_31_musd,520.283,"10-K FY2025 Schedule I, parent company only (XBRL R22)"
+parent_debt_2025_12_31_musd,323.176,same schedule
+revenue_2025_musd,3948.719,10-K FY2025 statement of operations
+revenue_2024_musd,2703.561,10-K FY2025 statement of operations
+parent_cash_2026_06_30_musd,135.4,Q2 2026 10-Q liquidity section
+consolidated_cash_and_st_inv_2026_06_30_musd,701.7,Q2 2026 10-Q liquidity section
+medical_expenses_payable_2026_06_30_musd,612.748,Q2 2026 10-Q balance sheet
+convertible_face_musd,330.0,Q2 2026 10-Q note 8
