@@ -276,7 +276,7 @@ S.column_dimensions['A'].width = 40; S.column_dimensions['E'].width = 60
 
 # ---------------- Valuation ----------------
 Vs = wb.create_sheet('Valuation')
-Vs['A1'] = 'Valuation: same method for any managed-care stock. Peer data Yahoo Finance, 16 Oct 2026 closes and 17 Oct consensus.'; Vs['A1'].font = BOLD
+Vs['A1'] = 'SUPERSEDED (v8 method, kept for the record). The price target is built in scripts/valuation_v10.py. Peer data Yahoo Finance, 16 Oct 2026 closes and 17 Oct consensus.'; Vs['A1'].font = BOLD
 ph = ['Ticker', 'Price 16 Oct', 'Price 14 Sep', 'Shares (m)', 'EV ($m)', 'EBITDA TTM ($m)', 'EPS 2026E', 'EPS 2027E', 'Fwd P/E', 'Fwd EBITDA 2027 ($m)', 'Fwd EV/EBITDA', 'P/E at 14 Sep', 'EV/EBITDA at 14 Sep']
 for j, h in enumerate(ph): c = Vs.cell(3, 1 + j, h); c.font = BOLD; c.fill = HDR
 peers = list(csv.DictReader(open(os.path.join(D, 'peers_2026_10_16.csv'))))
