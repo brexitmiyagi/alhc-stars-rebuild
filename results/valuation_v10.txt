@@ -1,0 +1,54 @@
+Discount rate: risk-free 5.10%, premium 4.20%, betas Alignment 1.14 (5y monthly; 0.49 on my 2y weekly), peer median 0.71; equity weight 84%
+  WACC, peer median beta: 7.33%
+  WACC, Alignment beta (base): 8.84%
+  WACC, Alignment beta + 1% size premium: 9.69%
+Stars cost per diluted share: $0.99 at 8.84% ($0.90 at 10%); of which the 2028 hit $0.16
+
+Primary: peer-median EV/EBITDA 10.35x on 2027 EBITDA after stock pay $129.3m, net cash $372m -> $6.96 (-16%)
+Cross-check P/E 14.47x on $0.274 (+NOLs): $3.45
+Cross-check DCF at 8.84%, 3% long-run margin: $13.48
+  DCF at 7.33% (peer median beta): 2.5% $15.37, 3% $19.11, 4% $26.59; price-implied long-run margin 1.55%
+  DCF at 8.84% (Alignment beta (base)): 2.5% $10.86, 3% $13.48, 4% $18.73; price-implied long-run margin 2.01%
+  DCF at 9.69% (Alignment beta + 1% size premium): 2.5% $9.24, 3% $11.47, 4% $15.92; price-implied long-run margin 2.28%
+  Margin after stock pay: 2026E 1.47%, 2027E 2.00%, 2028E 1.83%
+Company-adjusted EBITDA (stock pay left out) on the same multiple: $10.64
+
+Cash treatment on the primary method:
+  consolidated (as peers): $6.96
+  parent plus dividend capacity: $4.67
+  parent only: $4.33
+
+Peer-set sensitivity (EV/EBITDA median -> target; P/E median -> P/E value):
+  all seven: 10.35x -> $6.96; P/E 14.47x -> $3.45
+  without CVS and Cigna (diversified): 10.87x -> $7.28; P/E 17.28x -> $4.22
+  without Humana and Molina (recovering earnings): 10.35x -> $6.96; P/E 12.93x -> $3.02
+  without all four: 10.87x -> $7.28; P/E 14.47x -> $3.45
+
+One point of 2027 MBR: $3.12 a share on the primary method
+  symmetric +/-1.2 pts: bear 89.03% $3.22, base $6.96, bull 86.63% $10.70; 25/50/25 $6.96
+  bridge cases (+1.53 / -0.84 pts): bear $2.20, bull $9.58; 25/50/25 $6.43
+  2027 MBR at which the primary method equals the price: 87.40% (my 87.83%; consensus EBITDA $205.9m vs mine $205.6m)
+
+2026 guidance: adj. EBITDA $145m-$163m; H1 actual $106.0m, so H2 must be $39.0m-$57.0m; Q3 guide $20m-$30m
+  Q3 $15m: Q4 needed for the low end $24.0m; FY if Q4 = Q3 x 0.35 (2025 shape) $126.3m
+  Q3 $20m: Q4 needed for the low end $19.0m; FY if Q4 = Q3 x 0.35 (2025 shape) $133.0m
+  Q3 $25m: Q4 needed for the low end $14.0m; FY if Q4 = Q3 x 0.35 (2025 shape) $139.8m
+  Q3 $30m: Q4 needed for the low end $9.0m; FY if Q4 = Q3 x 0.35 (2025 shape) $146.5m
+  Q3 $35m: Q4 needed for the low end $4.0m; FY if Q4 = Q3 x 0.35 (2025 shape) $153.3m
+  Q3 needed to hold $145m on 2025's Q4/Q3 shape: $28.9m
+
+Bridge backtest (same method: half-credit maturity, rate vs effective growth rate, half the prior second-half gap)
+  2025: maturity +0.06, rate vs trend -1.22, carry -0.45 -> predicted -1.61 pts vs actual -1.40 (10-K)
+  2026: maturity -0.45, rate vs trend +3.48, carry -0.02 -> predicted +3.01 pts vs actual +0.38 (2026 = guidance-based estimate)
+  Young-member share: 2024 60%, 2025 61%, 2026 51%
+
+Stock pay as a share of revenue, 2025: ALHC 1.57%, UNH 0.22%, ELV 0.14%, CVS 0.13%, CNC 0.10%, MOH 0.10%, CI 0.11%
+Weighted shares: Q2 2024 190.9m; Q2 2026 207.4m basic (+8.7%), 215.0m diluted
+
+Positioning: short interest 23.6m shares (11.7% of float), 2.2 days to cover, borrow 0.25%; 13 analysts, mean target $13.31 (median $11.0, range $9.0-$26.0), ratings strong buy/buy/hold/sell 3/7/4/0
+Valuation history (EV = price x shares + debt - cash - short-term investments; next-year figures are actuals or my estimates):
+  2023-12-31: EV $1,470m; $12,333 a member; 0.54x next-year revenue
+  2024-12-31: EV $2,009m; $10,623 a member; 0.51x next-year revenue; 18.3x next-year adj. EBITDA
+  2025-12-31: EV $3,754m; $15,886 a member; 0.72x next-year revenue; 25.9x next-year adj. EBITDA
+  2026-10-16: EV $1,340m; $4,556 a member; 0.21x next-year revenue; 6.5x next-year adj. EBITDA
+  Now on EBITDA after stock pay: 10.4x vs the peer median 10.3x
