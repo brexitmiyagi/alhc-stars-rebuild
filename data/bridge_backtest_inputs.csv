@@ -1,0 +1,18 @@
+item,value,source
+members_ye2022_k,98.4,"derived: 119,200 at YE2023 was up 21.1% (Q4 2023 release)"
+members_ye2023_k,119.2,Q4 2023 release
+members_ye2024_k,189.1,Q4 2024 release (up 58.6%)
+members_ye2025_k,236.3,Q4 2025 release (up 25.0%)
+members_ye2026e_k,299.5,FY2026 guidance midpoint (Q2 2026 release)
+rate_change_2025_pct,3.70,CMS CY2025 Rate Announcement fact sheet (incl. risk score trend)
+egr_2025_pct,2.33,CMS CY2025 Rate Announcement
+rate_change_2026_pct,5.06,CMS CY2026 Rate Announcement fact sheet
+egr_2026_pct,9.04,CMS CY2026 Rate Announcement
+rate_change_2027_pct,4.98,CMS CY2027 Rate Announcement
+egr_2027_pct,5.33,CMS CY2027 Rate Announcement
+mbr_2024_gaap,0.890262,10-K (quarterly_mbr_2023_2026.csv)
+mbr_2025_gaap,0.876270,10-K
+mbr_2026e_adj,0.8788,my model (guidance midpoint about 87.7%)
+h2_minus_fy_2024_pts,-0.89,seasonality.py
+h2_minus_fy_2025_pts,-0.04,seasonality.py
+mbr_2025_adj,0.875,Q4 2025 release (adjusted MBR 87.5% for FY2025)

@@ -1,0 +1,15 @@
+item,value,source
+short_interest_shares,23606597,"Yahoo defaultKeyStatistics, settlement 30 Sep 2026; finviz 23.61M"
+short_interest_prior_month,22837600,Yahoo (prior settlement)
+short_pct_float,0.117,"Yahoo 11.7%; finviz 11.9%"
+days_to_cover,2.18,"Yahoo 2.18; finviz 2.90 (different volume windows)"
+borrow_fee_pct,0.25,"IBorrowDesk (Interactive Brokers), 16 Oct 2026; 6.9m shares available"
+institutional_pct,1.165,"Yahoo majorHoldersBreakdown (over 100% because of double counting in 13F data); finviz 114.8%"
+insider_pct,0.0257,"Yahoo 2.6%; finviz 4.4%"
+institutions_count,438,Yahoo
+analysts,13,Yahoo financialData
+target_mean,13.31,"Yahoo; finviz 13.31"
+target_median,11.0,Yahoo
+target_high,26.0,Yahoo
+target_low,9.0,Yahoo
+ratings_strongbuy_buy_hold_sell,3/7/4/0,Yahoo recommendationTrend (current month; 14 ratings)

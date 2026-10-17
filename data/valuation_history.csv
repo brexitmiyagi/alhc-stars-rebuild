@@ -1,0 +1,5 @@
+date,price,shares_m,debt_musd,cash_musd,st_inv_musd,members_k,next_year_revenue_musd,next_year_adj_ebitda_musd,source
+2023-12-31,8.61,188.977667,161.813,202.904,115.914,119.2,2703.561,,"price Yahoo monthly close; shares 10-K cover 22 Feb 2024; debt, cash, ST investments SEC XBRL; members Q4 2023 release; 2024 revenue 10-K"
+2024-12-31,11.25,191.832332,321.428,432.859,37.791,189.1,3948.719,109.9,"same sources; 2025 adj EBITDA per MarketScreener actuals (company-adjusted)"
+2025-12-31,19.75,204.296493,323.176,575.817,28.413,236.3,5210,145.2,"members Q4 2025 release; 2026 = my estimate (guidance low end)"
+2026-10-16,8.28,207.435149,324.056,693.453,8.258,294.1,6475.5,205.6,"price 16 Oct close; balance sheet 30 Jun 2026; members Q2 2026; 2027 = my estimate"

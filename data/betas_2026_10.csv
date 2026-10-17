@@ -1,0 +1,9 @@
+ticker,beta_yahoo_5y_monthly,beta_2y_weekly_mine,source
+ALHC,1.139,0.491,"Yahoo quoteSummary defaultKeyStatistics.beta, 17 Oct 2026 (finviz shows 1.05); 2y weekly log returns vs S&P 500 from Yahoo chart API, 14 Oct 2024 to 9 Oct 2026, computed in my run"
+UNH,0.615,0.364,same
+HUM,0.744,0.990,same
+ELV,0.711,0.431,same
+CVS,0.596,0.464,same
+CNC,1.13,0.293,same
+MOH,0.784,-0.161,same
+CI,0.298,0.193,same
