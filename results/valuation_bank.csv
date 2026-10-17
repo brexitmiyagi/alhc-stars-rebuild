@@ -1,0 +1,17 @@
+line,value
+pe_leg,3.3888
+ev_leg,7.0111
+dcf_leg,10.8935
+target,7.0978
+prob_weighted,6.6725
+implied_mbr,0.8734
+per_point,2.4224
+"alt: stock pay expensed, consolidated (same as peers)",7.0978
+"alt: stock pay expensed, parent plus dividend capacity",6.3329
+"alt: stock pay expensed, parent only",6.2199
+"alt: stock pay left out, consolidated (same as peers)",9.5886
+"alt: stock pay left out, parent plus dividend capacity",8.8237
+"alt: stock pay left out, parent only",8.7107
+alt: DCF terminal margin 4%,8.4991
+alt: DCF terminal margin 2.5%,6.3971
+alt: DCF slow growth,6.338

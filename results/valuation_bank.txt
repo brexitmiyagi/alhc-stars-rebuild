@@ -1,0 +1,50 @@
+Peers, 2027: EV/EBITDA on S&P consensus EBITDA and consolidated net debt; P/E on Yahoo adjusted EPS
+  UNH  EV/EBITDA  12.2x   P/E  17.3x   2028 EPS growth +16%
+  HUM  EV/EBITDA  14.3x   P/E  24.2x   2028 EPS growth +54%
+  ELV  EV/EBITDA  10.9x   P/E  14.5x   2028 EPS growth +17%
+  CVS  EV/EBITDA   8.3x   P/E  10.8x   2028 EPS growth +18%
+  CNC  EV/EBITDA  10.3x   P/E  12.9x   2028 EPS growth +42%
+  MOH  EV/EBITDA  10.3x   P/E  24.2x   2028 EPS growth +53%
+  CI   EV/EBITDA   7.3x   P/E   9.0x   2028 EPS growth +10%
+  Median EV/EBITDA 10.35x, median P/E 14.47x
+
+Alignment 2027 in my model: revenue $6,475m, MBR 87.83%, adj. EBITDA $205.6m (consensus $205.9m), stock pay $76.3m
+
+Matrix, before the stars cost (P/E leg | EV/EBITDA leg by cash treatment)
+  Company-adjusted (stock pay left out): taxed EPS $0.530; P/E leg $8.13; EV/EBITDA leg consolidated (same as peers) $11.62; parent plus dividend capacity $9.33; parent only $8.99
+  Like peers (stock pay expensed): taxed EPS $0.267; P/E leg $4.33; EV/EBITDA leg consolidated (same as peers) $7.95; parent plus dividend capacity $5.65; parent only $5.31
+
+DCF (stock pay expensed, 10%, terminal growth 3%, excess cash = parent + dividend capacity), before stars
+  WACC 9%: 2.0% $8.82  2.5% $11.36  3.0% $13.90  3.5% $16.43  4.0% $18.97  5.0% $24.05
+  WACC 10%: 2.0% $7.47  2.5% $9.58  3.0% $11.68  3.5% $13.78  4.0% $15.88  5.0% $20.09
+  WACC 11%: 2.0% $6.47  2.5% $8.25  3.0% $10.02  3.5% $11.80  4.0% $13.58  5.0% $17.13
+  Price-implied long-run EBITDA margin after stock pay at 9%: 2.05% on my growth path, 2.48% on the slow path
+  Price-implied long-run EBITDA margin after stock pay at 10%: 2.38% on my growth path, 2.90% on the slow path
+  Price-implied long-run EBITDA margin after stock pay at 11%: 2.73% on my growth path, 3.34% on the slow path
+  Margin after stock pay: 2026E 1.47%, 2027E 2.00%, 2028E 1.83%; terminal value share at 3% 61%
+
+Base target: P/E $3.39, EV/EBITDA $7.01, DCF $10.89 -> $7.10 (-14%)
+  Stars cost $0.937, of which the 2028 hit inside the DCF $0.153
+  Target grid after stars (rows: earnings basis; columns: Alignment cash treatment; DCF unchanged)
+    stock pay expensed: consolidated (same as peers) $7.10; parent plus dividend capacity $6.33; parent only $6.22
+    stock pay left out: consolidated (same as peers) $9.59; parent plus dividend capacity $8.82; parent only $8.71
+  Sensitivity, DCF terminal margin 4%: $8.50
+  Sensitivity, DCF terminal margin 2.5%: $6.40
+  Sensitivity, DCF slow growth: $6.34
+
+Growth-adjusted P/E: across peers P/E = 8.4 + 25.7 x 2028 EPS growth (r = 0.80)
+  Alignment 2028 growth: my pre-tax +11% (after the stars hit), consensus GAAP EPS +0% -> fitted P/E 11.1x / 8.5x vs the 14.5x median
+  Revenue growth 2027: Alignment +24%
+
+Scenarios (bridge deltas on the model's 87.83%): bear 89.36% $3.38, base 87.83% $7.10, bull 86.99% $9.11; 25/50/25 weighted $6.67
+  One point of 2027 MBR is worth $2.42 a share
+  Price-implied 2027 MBR on this method: 87.34% (my 87.83%, gap 0.49 pts)
+  14 Sep ($12.94; peer medians 14.3x P/E, 10.6x EV/EBITDA): price-implied 2027 MBR 85.70%; change to now +1.63 pts
+
+Takeout check: Molina paid $4,587 a member and 0.32x revenue for Bright's California MA plans (Jan 2024)
+  Applied to Alignment (operating plans, plus parent cash, less the notes): $5.48 a share per member, $6.73 on revenue
+  Alignment today, ex parent cash: $6,594 a member
+
+Capital (10-K FY2025): regulatory capital $268.5m vs minimum $116.1m (2.31x; 2024 2.08x); excess $152.4m; dividendable $72.9m
+  Minimum as a share of revenue 2.94%; scaled: 2026E $153m, 2027E $190m, 2028E $226m
+  Consolidated cash $701.7m vs claims payable $612.7m; parent $135.4m vs notes $330m

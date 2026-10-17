@@ -18,17 +18,19 @@ Cash end FY26/27/28: 720 / 919 / 1,132; CFO FY27 235; balance check 0
   H2-2026 cost pressure carried    0.66% / 0.33% / 0.00%
   2027E MBR                        89.34% / 87.81% / 86.98%
 
-California TNE check ($m): FY26 / FY27 / FY28
-  CA annualized premium                    4,064 / 5,051 / 6,000
-  CA medical spend                         3,571 / 4,436 / 5,269
-  Required: premium test                   42 / 52 / 61
-  Required: spend test, 0% capitated       149 / 183 / 217
-  Required: spend test, 50% capitated      77 / 95 / 111
-  Required TNE (150%), low case            116 / 142 / 167
-  Required TNE (150%), high case           223 / 275 / 325
-  Estimated regulated net worth            433 / 587 / 753
-  Headroom, low requirement                317 / 445 / 586
-  Headroom, high requirement               210 / 312 / 428
+Capital check ($m): FY26 / FY27 / FY28
+  CA annualized premium                            4,064 / 5,051 / 6,000
+  CA medical spend                                 3,571 / 4,436 / 5,269
+  Required: premium test                           42 / 52 / 61
+  Required: spend test, 0% capitated               149 / 183 / 217
+  Required: spend test, 50% capitated              77 / 95 / 111
+  Required TNE (150%), low case                    116 / 142 / 167
+  Required TNE (150%), high case                   223 / 275 / 325
+  Regulatory capital (filed YE25, plus net income) 295 / 370 / 454
+  Headroom, low requirement                        179 / 228 / 287
+  Headroom, high requirement                       72 / 95 / 128
+  Minimum, all states, at the 2025 ratio to revenue 153 / 190 / 226
+  Cover vs that minimum (x)                        1.93x / 1.95x / 2.01x
 
 Valuation
   2027E revenue                      6,475.481

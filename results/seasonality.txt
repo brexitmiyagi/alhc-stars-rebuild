@@ -1,0 +1,7 @@
+2023: Q1 90.24% Q2 88.81% Q3 87.12% Q4 89.77% | H1 89.51% H2 88.46% | H2 minus H1 -1.05 pts, Q3 minus H1 -2.39
+2024: Q1 91.19% Q2 88.85% Q3 88.59% Q4 87.69% | H1 89.97% H2 88.14% | H2 minus H1 -1.84 pts, Q3 minus H1 -1.38
+2025: Q1 88.56% Q2 86.85% Q3 87.35% Q4 87.82% | H1 87.66% H2 87.59% | H2 minus H1 -0.07 pts, Q3 minus H1 -0.31
+2026: Q1 88.30% Q2 86.45% | H1 87.34%
+Average H2 minus H1, 2023-2025: -0.99 pts
+2026 adjusted: H1 87.20%; guidance midpoint implies H2 88.22% (+1.01 pts) and Q3 88.32%; my H2 88.55% (+1.35 pts)
+If Q3 2026 followed 2025's pattern it would be about 86.89% adjusted, against my 88.70%
