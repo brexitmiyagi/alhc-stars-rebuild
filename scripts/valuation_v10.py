@@ -31,11 +31,15 @@ REV27, E27, DA27, INT27, SBC27, MBR27 = g('Q8'), g('Q14'), g('Q17'), g('Q18'), g
 REV28, E28, SBC28 = g('R8'), g('R16'), g('R19')
 HIT28 = -g('R15')
 
-PRICE, SH, TAX, NOL = 8.28, 215.024483, 0.24, 0.463
-RF, ERP, KD = 0.0510, 0.0420, 0.0425
+SH, TAX, NOL = 215.024483, 0.24, 0.463
+PRICE = None  # set below from prices_2026_10_21.csv
+RF, ERP, KD = 0.0515, 0.0420, 0.0425  # 10-year Treasury 5.15% on 19 Oct (FRED DGS10, latest on 22 Oct)
 reg = {k: float(v) for k, v in kv('regulatory_capital.csv').items()}
 CASH, DEBT, PARENT, DIVD = reg['consolidated_cash_and_st_inv_2026_06_30_musd'], reg['convertible_face_musd'], reg['parent_cash_2026_06_30_musd'], reg['dividendable_2025_12_31_musd']
 peers = [r for r in rd('peers_consensus_2026_10.csv') if r['ticker'] != 'ALHC']
+# prices rolled to the latest close (consensus EPS and EBITDA rechecked on Yahoo 22 Oct: unchanged)
+LATEST = {r['ticker']: float(r['close_2026_10_21']) for r in rd('prices_2026_10_21.csv')}
+for r in peers: r['price_2026_10_16'] = str(LATEST[r['ticker']])
 cons = [r for r in rd('peers_consensus_2026_10.csv') if r['ticker'] == 'ALHC'][0]
 ev_m = {r['ticker']: (float(r['price_2026_10_16']) * float(r['shares_m']) + float(r['net_debt_2025_musd'])) / float(r['ebitda_2027_cons_musd']) for r in peers}
 pe_m = {r['ticker']: float(r['price_2026_10_16']) / float(r['adj_eps_2027_yahoo']) for r in peers}
@@ -45,6 +49,7 @@ MEV, MPE = med(ev_m), med(pe_m)
 # ---- discount rate
 betas = {r['ticker']: (float(r['beta_yahoo_5y_monthly']), float(r['beta_2y_weekly_mine'])) for r in rd('betas_2026_10.csv')}
 peer_beta = float(np.median([b[0] for t, b in betas.items() if t != 'ALHC']))
+PRICE = LATEST['ALHC']
 E_VAL = PRICE * SH; wE = E_VAL / (E_VAL + DEBT)
 wacc = lambda beta, prem=0.0: wE * (RF + beta * ERP + prem) + (1 - wE) * KD * (1 - TAX)
 W = {'peer median beta': wacc(peer_beta), 'Alignment beta (base)': wacc(betas['ALHC'][0]), 'Alignment beta + 1% size premium': wacc(betas['ALHC'][0], 0.01)}
@@ -154,7 +159,8 @@ for r in rd('valuation_history.csv'):
     ev = float(r['price']) * float(r['shares_m']) + float(r['debt_musd']) - float(r['cash_musd']) - float(r['st_inv_musd'])
     e = r['next_year_adj_ebitda_musd']
     P(f"  {r['date']}: EV ${ev:,.0f}m; ${ev * 1e3 / float(r['members_k']):,.0f} a member; {ev / float(r['next_year_revenue_musd']):.2f}x next-year revenue" + (f"; {ev / float(e):.1f}x next-year adj. EBITDA" if e else ''))
-P(f"  Now on EBITDA after stock pay: {(PRICE * 207.435149 + 324.056 - 693.453 - 8.258) / e_after(E27):.1f}x vs the peer median {MEV:.1f}x")
+P(f"  Now on EBITDA after stock pay, on the 215.0m diluted shares the target uses: EV ${PRICE * SH - (CASH - DEBT):,.0f}m, {(PRICE * SH - (CASH - DEBT)) / e_after(E27):.1f}x vs the peer median {MEV:.2f}x (basic shares: {(PRICE * 207.435149 + 324.056 - 693.453 - 8.258) / e_after(E27):.1f}x)")
+P(f"  Gap from price to target: ${PRICE - PT:.2f}, of which the stars cost ${STARS:.2f} and the multiple ${PRICE - PT - STARS:.2f}")
 
 with open(os.path.join(HERE, '..', 'results', 'valuation_v10.csv'), 'w', newline='') as fh:
     w = csv.writer(fh); w.writerow(['line', 'value'])
