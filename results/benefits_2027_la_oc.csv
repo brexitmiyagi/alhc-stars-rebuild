@@ -1,0 +1,17 @@
+group,county,plans,zero_premium_share,median_premium,giveback_share,median_giveback_year,max_giveback_year,median_moop,median_allowance_year,median_dental_year
+Alignment,Los Angeles,12,0.92,0.0,0.33,0.0,2364.0,2699.0,340.0,0.0
+Blue Shield,Los Angeles,6,1.0,0.0,0.0,0.0,0.0,899.5,170.0,0.0
+CVS,Los Angeles,4,1.0,0.0,0.25,0.0,480.0,1299.5,30.0,500.0
+Elevance,Los Angeles,6,1.0,0.0,0.17,0.0,744.0,1000.0,134.0,850.0
+Humana,Los Angeles,5,0.8,0.0,0.4,0.0,1080.0,4350.0,0.0,3000.0
+Kaiser,Los Angeles,2,1.0,0.0,0.0,0.0,0.0,1949.5,200.0,0.0
+SCAN,Los Angeles,10,0.8,0.0,0.3,0.0,2220.0,999.0,360.0,1500.0
+UnitedHealth,Los Angeles,5,0.8,0.0,0.6,120.0,480.0,800.0,100.0,1000.0
+Alignment,Orange,10,0.9,0.0,0.3,0.0,1800.0,1999.0,995.0,1100.0
+Blue Shield,Orange,5,1.0,0.0,0.0,0.0,0.0,1300.0,0.0,0.0
+CVS,Orange,4,1.0,0.0,0.25,0.0,480.0,1299.5,30.0,500.0
+Elevance,Orange,6,1.0,0.0,0.17,0.0,744.0,1000.0,134.0,850.0
+Humana,Orange,5,0.8,0.0,0.4,0.0,1080.0,4350.0,0.0,3000.0
+Kaiser,Orange,2,1.0,0.0,0.0,0.0,0.0,1949.5,200.0,0.0
+SCAN,Orange,9,0.78,0.0,0.11,0.0,396.0,999.0,260.0,2000.0
+UnitedHealth,Orange,5,0.8,0.0,0.6,120.0,480.0,800.0,100.0,1000.0

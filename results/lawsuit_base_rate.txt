@@ -1,0 +1,4 @@
+Decided with a known outcome: 10; plan got relief in 5 (50%); 2 unclear
+Wins came on errors in how CMS ran its own method or on measures it had no authority to use; losses came on plan-specific facts.
+Alignment's 2027 case asks for 10 measures to be struck (the Clover theory). Clover is on appeal, and CMS's own June recalculation
+on HEDIS, HOS and CAHPS only still leaves H3815 at 3.34, so 3.5 stars (h3815_scenarios.py). I keep 25% odds, below the base rate.

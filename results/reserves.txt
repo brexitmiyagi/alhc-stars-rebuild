@@ -1,0 +1,20 @@
+quarter_end  medical_expenses_kusd  medical_expenses_payable_musd  dcp_days  claims_incurred_not_paid_musd  unpaid_claims_days  pyd_ex_pad_quarter_musd  pyd_pct_of_opening
+ 2023-03-31                 396315                         185.67     42.16                          83.11               18.87                      NaN                 NaN
+ 2023-06-30                 410644                         207.20     45.92                          91.89               20.36                      NaN                 NaN
+ 2023-09-30                 397879                         203.44     47.04                         101.90               23.56                      NaN                 NaN
+ 2023-12-31                 417762                         205.40     45.23                          95.66               21.07                      NaN                 NaN
+ 2024-03-31                 573218                         276.46     43.89                         129.25               20.52                     0.87                0.91
+ 2024-06-30                 605312                         315.37     47.41                         156.38               23.51                     2.46                2.57
+ 2024-09-30                 613444                         297.12     44.56                         158.17               23.72                     0.55                0.57
+ 2024-12-31                 614896                         289.79     43.36                         168.36               25.19                     3.17                3.32
+ 2025-03-31                 820900                         396.73     43.50                         196.94               21.59                     5.95                3.53
+ 2025-06-30                 881740                         455.15     46.97                         211.46               21.82                     6.54                3.89
+ 2025-09-30                 868022                         528.80     56.05                         298.18               31.60                     5.09                3.02
+ 2025-12-31                 889494                         474.57     49.08                         297.37               30.76                     2.66                1.58
+ 2026-03-31                1090717                         655.97     54.13                         348.13               28.73                     8.38                2.82
+ 2026-06-30                1154676                         612.75     48.29                         269.79               21.26                    -6.53               -2.20
+Days claims payable: 2024 range 43.4-47.4; peak 56.0 at Sep 2025; now 48.3
+Unpaid-claims days: 2024 range 20.5-25.2; 28.7 in Mar 2026, 21.3 in Jun 2026
+One day of medical expenses in Q2 2026: $12.7m
+Prior-year development ex-PAD: 2024 $7.1m favorable, 2025 $20.2m, Q1 2026 $+8.4m, Q2 2026 $-6.5m (first unfavorable quarter in the series)
+Prior-year claims paid in the first half: 2025 $127.1m against a $168.4m opening balance (76%); 2026 $245.4m against $297.4m (83%) (10-Q Q2 2026 reserve table)
