@@ -1,0 +1,11 @@
+item,value,source
+targets_count,13,Yahoo quoteSummary financialData 21 Oct 2026
+target_mean,13.31,Yahoo quoteSummary financialData 21 Oct 2026
+target_median,11,Yahoo quoteSummary financialData 21 Oct 2026
+target_high,26,Yahoo quoteSummary financialData 21 Oct 2026
+target_low,9,Yahoo quoteSummary financialData 21 Oct 2026
+recommendations_strongbuy_buy_hold_sell,3/7/4/0,Yahoo recommendationTrend current month (14 recommendations)
+post_stars_target_jpmorgan,10,Yahoo upgradeDowngradeHistory 9 Oct (22 to 10); TIKR 9 Oct
+post_stars_target_keybanc,12,Yahoo upgradeDowngradeHistory 9 Oct (28 to 12); TIKR 9 Oct
+post_stars_target_ubs,9,Yahoo upgradeDowngradeHistory 12 Oct (22 to 9); Intellectia/TheFly 12 Oct
+post_stars_target_tdcowen,12,Yahoo upgradeDowngradeHistory 12 Oct (21 to 12); Intellectia/TheFly 12 Oct

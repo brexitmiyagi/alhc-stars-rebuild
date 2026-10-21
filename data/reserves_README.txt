@@ -1,0 +1,6 @@
+reserves_quarterly.csv
+- medical_expenses_payable_musd: us-gaap LiabilityForClaimsAndClaimsAdjustmentExpense, SEC XBRL companyfacts (data.sec.gov/api/xbrl/companyfacts/CIK0001832466.json), pulled 21 Oct 2026. Ties to "Total medical expenses payable" in the 10-Q reserve table (612,748 at 30 Jun 2026).
+- claims_incurred_not_paid_musd: us-gaap LiabilityForUnpaidClaimsAndClaimsAdjustmentExpenseIncurredButNotReportedIBNRClaimsAmount, same pull. Ties to "Claims incurred but not paid - ending balance" in the 10-Q table (269,790 at 30 Jun 2026; 297,368 at 31 Dec 2025).
+- pyd_ex_pad_quarter_musd: prior-year development excluding the provision for adverse deviation, from the sentence in each 10-Q/10-K reserve note ("We recognized a favorable/unfavorable prior year development, excluding provision for adverse deviation, of ..."). Positive = favorable. Q4 figures are the annual 10-K figure less the nine-month 10-Q figure.
+- Medical expenses by quarter come from quarterly_mbr_2023_2026.csv (Q4 = full year less Q1-Q3).
+Filings: 10-Q Q2 2026 https://www.sec.gov/Archives/edgar/data/1832466/000162828026051060/alhc-20260630.htm ; 10-Q Q1 2026 https://www.sec.gov/Archives/edgar/data/1832466/000162828026028901/alhc-20260331.htm ; 10-K 2025 https://www.sec.gov/Archives/edgar/data/1832466/000162828026012545/alhc-20251231.htm
