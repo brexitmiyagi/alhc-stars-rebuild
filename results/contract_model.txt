@@ -1,0 +1,16 @@
+New-contract rule: H8832 (first rated in 2027) takes the 2026 weighted average of Alignment's rated contracts, 4.14, so it earns the bonus in 2027; H7074 has too few members to rate and is shown with no bonus
+Alignment contracts, October 2026 (CMS): 301,157 members; company 2027E revenue $6,475m allocated by members x benchmark
+Contract St   Members  Share Stars26 Stars27 Bonus27 Bonus28     Base   Lift  Rev27 $m Bonus $m 28 at risk Gr Feb25-26
+H3815    CA   225,609  74.9%     4.0     3.5    True   False  1352.73  69.09      4856               133.6        +21%
+H5296    NC    33,433  11.1%     5.0     4.5    True    True  1366.37  70.07       727                 0.0        +75%
+H5472    AZ    10,791   3.6%     4.5     4.5    True    True  1271.01 117.90       227                 0.0        +69%
+H3443    AZ    10,685   3.5%     4.0     4.0    True    True  1294.08  77.07       222                 0.0        +66%
+H4961    CA     8,009   2.7%     4.0     4.5    True    True  1302.96  67.79       166                 0.0        +66%
+H9686    NV     6,818   2.3%     5.0     4.0    True    True  1392.63  89.90       153                 0.0       +296%
+H8832    CA     4,945   1.6%    4.14     4.0    True    True  1370.12  71.99       108                 0.0           -
+H7074    NC       867   0.3%       - Not enough data available   False   False  1281.66  61.24        17                 0.0           -
+By state: CA 238,563 members (79%), $5,130m 2027E revenue, NC 34,300 members (11%), $744m 2027E revenue, AZ 21,476 members (7%), $449m 2027E revenue, NV 6,818 members (2%), $153m 2027E revenue
+Members in bonus-earning contracts: 2027 payments 100%, 2028 payments 25% (on October 2026 enrollment)
+2028 bonus lost: H3815 $205.6m gross at its risk score, $133.6m as rebate dollars (65%) on October 2026 members
+Outside H3815: 75,548 members (25%), all rated 4 or higher in 2027 except H7074 (too small to rate)
+Growth Feb 2025 to Feb 2026: H3815 +21%; contracts outside California +83%

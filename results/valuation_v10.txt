@@ -1,33 +1,33 @@
-Discount rate: risk-free 5.10%, premium 4.20%, betas Alignment 1.14 (5y monthly; 0.49 on my 2y weekly), peer median 0.71; equity weight 84%
-  WACC, peer median beta: 7.33%
-  WACC, Alignment beta (base): 8.84%
-  WACC, Alignment beta + 1% size premium: 9.69%
-Stars cost per diluted share: $0.99 at 8.84% ($0.90 at 10%); of which the 2028 hit $0.16
+Discount rate: risk-free 5.15%, premium 4.20%, betas Alignment 1.14 (5y monthly; 0.49 on my 2y weekly), peer median 0.71; equity weight 85%
+  WACC, peer median beta: 7.38%
+  WACC, Alignment beta (base): 8.90%
+  WACC, Alignment beta + 1% size premium: 9.75%
+Stars cost per diluted share: $0.98 at 8.90% ($0.90 at 10%); of which the 2028 hit $0.16
 
-Primary: peer-median EV/EBITDA 10.35x on 2027 EBITDA after stock pay $129.3m, net cash $372m -> $6.96 (-16%)
-Cross-check P/E 14.47x on $0.274 (+NOLs): $3.45
-Cross-check DCF at 8.84%, 3% long-run margin: $13.48
-  DCF at 7.33% (peer median beta): 2.5% $15.37, 3% $19.11, 4% $26.59; price-implied long-run margin 1.55%
-  DCF at 8.84% (Alignment beta (base)): 2.5% $10.86, 3% $13.48, 4% $18.73; price-implied long-run margin 2.01%
-  DCF at 9.69% (Alignment beta + 1% size premium): 2.5% $9.24, 3% $11.47, 4% $15.92; price-implied long-run margin 2.28%
+Primary: peer-median EV/EBITDA 10.73x on 2027 EBITDA after stock pay $129.3m, net cash $372m -> $7.20 (-15%)
+Cross-check P/E 14.83x on $0.274 (+NOLs): $3.55
+Cross-check DCF at 8.90%, 3% long-run margin: $13.32
+  DCF at 7.38% (peer median beta): 2.5% $15.16, 3% $18.84, 4% $26.21; price-implied long-run margin 1.59%
+  DCF at 8.90% (Alignment beta (base)): 2.5% $10.73, 3% $13.32, 4% $18.50; price-implied long-run margin 2.06%
+  DCF at 9.75% (Alignment beta + 1% size premium): 2.5% $9.15, 3% $11.34, 4% $15.74; price-implied long-run margin 2.34%
   Margin after stock pay: 2026E 1.47%, 2027E 2.00%, 2028E 1.83%
-Company-adjusted EBITDA (stock pay left out) on the same multiple: $10.64
+Company-adjusted EBITDA (stock pay left out) on the same multiple: $11.01
 
 Cash treatment on the primary method:
-  consolidated (as peers): $6.96
-  parent plus dividend capacity: $4.67
-  parent only: $4.33
+  consolidated (as peers): $7.20
+  parent plus dividend capacity: $4.90
+  parent only: $4.56
 
 Peer-set sensitivity (EV/EBITDA median -> target; P/E median -> P/E value):
-  all seven: 10.35x -> $6.96; P/E 14.47x -> $3.45
-  without CVS and Cigna (diversified): 10.87x -> $7.28; P/E 17.28x -> $4.22
-  without Humana and Molina (recovering earnings): 10.35x -> $6.96; P/E 12.93x -> $3.02
-  without all four: 10.87x -> $7.28; P/E 14.47x -> $3.45
+  all seven: 10.73x -> $7.20; P/E 14.83x -> $3.55
+  without CVS and Cigna (diversified): 11.09x -> $7.41; P/E 17.97x -> $4.41
+  without Humana and Molina (recovering earnings): 10.54x -> $7.09; P/E 13.18x -> $3.10
+  without all four: 11.09x -> $7.41; P/E 14.83x -> $3.55
 
-One point of 2027 MBR: $3.12 a share on the primary method
-  symmetric +/-1.2 pts: bear 89.03% $3.22, base $6.96, bull 86.63% $10.70; 25/50/25 $6.96
-  bridge cases (+1.53 / -0.84 pts): bear $2.20, bull $9.58; 25/50/25 $6.43
-  2027 MBR at which the primary method equals the price: 87.40% (my 87.83%; consensus EBITDA $205.9m vs mine $205.6m)
+One point of 2027 MBR: $3.23 a share on the primary method
+  symmetric +/-1.2 pts: bear 89.03% $3.32, base $7.20, bull 86.63% $11.07; 25/50/25 $7.20
+  bridge cases (+1.53 / -0.84 pts): bear $2.25, bull $9.91; 25/50/25 $6.64
+  2027 MBR at which the primary method equals the price: 87.44% (my 87.83%; consensus EBITDA $205.9m vs mine $205.6m)
 
 2026 guidance: adj. EBITDA $145m-$163m; H1 actual $106.0m, so H2 must be $39.0m-$57.0m; Q3 guide $20m-$30m
   Q3 $15m: Q4 needed for the low end $24.0m; FY if Q4 = Q3 x 0.35 (2025 shape) $126.3m
@@ -51,4 +51,6 @@ Valuation history (EV = price x shares + debt - cash - short-term investments; n
   2024-12-31: EV $2,009m; $10,623 a member; 0.51x next-year revenue; 18.3x next-year adj. EBITDA
   2025-12-31: EV $3,754m; $15,886 a member; 0.72x next-year revenue; 25.9x next-year adj. EBITDA
   2026-10-16: EV $1,340m; $4,556 a member; 0.21x next-year revenue; 6.5x next-year adj. EBITDA
-  Now on EBITDA after stock pay: 10.4x vs the peer median 10.3x
+  2026-10-21: EV $1,375m; $4,676 a member; 0.21x next-year revenue; 6.7x next-year adj. EBITDA
+  Now on EBITDA after stock pay, on the 215.0m diluted shares the target uses: EV $1,445m, 11.2x vs the peer median 10.73x (basic shares: 10.6x)
+  Gap from price to target: $1.25, of which the stars cost $0.98 and the multiple $0.27
