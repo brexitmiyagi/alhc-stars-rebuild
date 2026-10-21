@@ -1,6 +1,6 @@
 # alhc-stars-rebuild
 
-This is the data and code behind my October 2026 piece on Alignment Healthcare (ALHC), "The Lost Star Is Worth About $1, And The Growth Premium Is Already Gone", and the seven-page research note in `note/` (rating, estimates, financial summary, valuation, risks). Earlier drafts had other titles. See Corrections at the bottom.
+This is the data and code behind my October 2026 piece on Alignment Healthcare (ALHC), "The Market Charges Nothing For The Lost Star", and the seven-page research note in `note/` (rating, estimates, financial summary, valuation, risks). Earlier drafts had other titles. See Corrections at the bottom.
 
 On October 8 CMS cut Alignment's California HMO, contract H3815, from 4 stars to 3.5. I wanted to know three things. Why it fell, what the lawsuit can actually fix, and what the lost bonus is worth in dollars. So I rebuilt CMS's 2027 Star Ratings for every contract from the published measure stars, checked the rebuild against everything CMS and the companies published, and then reran H3815 and the whole industry under the measure sets the courts are fighting over.
 
@@ -38,6 +38,7 @@ python3 scripts/seasonality.py      # first half vs second half cost ratio, 2023
 python3 scripts/valuation_bank.py   # v9 target build (kept for the record)
 python3 scripts/valuation_v10.py    # the price target now: one primary method, cross-checks, discount rate, backtest, positioning, history
 python3 scripts/financial_summary.py # financial summary page and estimates vs consensus
+python3 scripts/contract_model.py   # contract-level model: members, stars, bonus status, revenue by contract; writes model/ALHC_contract_model.xlsx
 # older: forward_2028.py, value_v3.py ... value_v7.py are kept for the record
 ```
 
@@ -62,6 +63,7 @@ The output of my own run is in `results/`, one text file per script.
 - `value_v5.py` puts it together with a 74% margin share and 25% lawsuit odds: stars cost $0.97 a share for 2028-2030 payments; the $0.43 fall since October 8 implies the market had already priced about 56% odds. Fair value about $8.25.
 - `ops_model.py` gives the operating snapshot (guidance, consensus-implied 2027 EBITDA, multiples), the Q3 set-up (prior-year development, days claims payable, IBNR) and the cash the parent can actually use ($135.4m at June 30).
 - `valuation_v10.py` is the price target in the valuation note. One primary method: peer-median forward EV/EBITDA on 2027 (10.35x on S&P Global consensus EBITDA, consolidated net debt), on Alignment's EBITDA after stock pay ($129.3m), with Alignment's cash netted the way the peers' is, over 215.0m diluted shares held flat so stock pay is counted once, less the stars cost: $6.96. Checks: P/E ($3.45), a DCF ($13.48 at 8.84%, built from the 10-year Treasury, Damodaran's premium and Alignment's beta), stock pay left out ($10.64), the Molina-Bright deal, peer-set and cash choices, symmetric scenarios, the 2026 guidance arithmetic, a backtest of the cost-ratio bridge on 2025 and 2026 (off by 0.2 and 2.6 points), stock pay against peers, positioning and valuation history.
+- `contract_model.py` splits Alignment by Medicare contract from CMS's October 2026 enrollment file, the 2027 Star Ratings and the 2027 rate book. H3815 has 225,609 of 301,157 members (75%) and about $4.9bn of my $6.5bn 2027 revenue; every other rated contract is at 4 stars or more; members in bonus-earning contracts fall from nearly all in 2027 payments to 25% in 2028. Revenue is allocated by members x county benchmark, which assumes similar risk scores and bids across contracts.
 - `financial_summary.py` writes the 2025-2028 financial summary and the estimates-vs-consensus table used in the note.
 - `valuation_bank.py` was the v9 target (three methods averaged); kept for the record. It values my 2027 numbers three ways: peer-median forward P/E (14.5x on Yahoo adjusted EPS), peer-median forward EV/EBITDA (10.3x on S&P Global consensus 2027 EBITDA from MarketScreener, with consolidated net debt) and a DCF to 2036. Stock pay is expensed because the peers' numbers are after it, and Alignment's cash is netted the same way as the peers'. It prints every other choice too: $9.59 with stock pay left out, about $6.20 with parent-only cash, $6.67 weighted across the cost-ratio cases, the margin the price implies in the DCF, the growth-adjusted P/E, and the Molina-Bright takeout check. Base $7.10.
 - `seasonality.py` shows Alignment's second-half cost ratio came in below the first half in 2023, 2024 and 2025 (by 1.05, 1.84 and 0.07 points), against about 1.0 point above in this year's guidance and 1.35 in my quarters.
@@ -169,6 +171,8 @@ The output of my own run is in `results/`, one text file per script.
 - CY2027 final rule: https://www.federalregister.gov/documents/2026/04/06/2026-06600/ (text used from govinfo.gov, FR-2026-04-06/2026-06600).
 
 ## Corrections
+
+- 22 October 2026, before publication. Prices rolled to the 21 October close (`data/prices_2026_10_21.csv`; consensus rechecked, unchanged) and the 10-year Treasury to 5.15%. Target $7.20 at $8.45 (was $7.00 at $8.28). The multiple is now quoted on the 215.0m diluted shares the target uses (11.2x against a 10.73x peer median); earlier drafts quoted 10.4x on basic shares.
 
 - 17 October 2026, v10, before publication. After a critical review of v9: my 2027 estimates match consensus, so the Sell rested on a valuation convention. The target now comes from one primary method instead of an average, shares are held at 215.0m so stock pay isn't counted twice, the discount rate is derived from betas, scenarios are symmetric, and the cost-ratio bridge was backtested (it missed 2026 by 2.6 points). Rating Hold with a negative skew, target $7.00 (was Sell, $7.10). The model's Valuation sheet is marked superseded.
 
