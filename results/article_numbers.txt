@@ -1,0 +1,22 @@
+close used                                              $8.44 (2026-10-21)
+price target (summary, para 4, PT section, close)       $7.17
+downside to target                                      -15%
+peer-median EV/EBITDA on 2027                           10.69 times
+enterprise value on EBITDA after stock pay              about $1,382 million
+value before the star                                   $8.15
+stock pay left out                                      $10.97
+gap, stock pay left out vs target                       $3.80
+stars cost                                              $0.98
+discount rate (WACC, base)                              8.90%
+convert check: discount rate / target                   9.34% / $7.20
+DCF at 3% / 4% margin                                   $13.33 / $18.51
+price-implied long-run margin (base)                    2.06%
+without CVS and Cigna / without Humana and Molina       $7.35 / $7.07
+EV per member (latest row)                              $4,669
+one point of cost ratio                                 $3.22 a share
+cost ratio at which value = price                       87.43%
+symmetric +/-1.2 pts bear / bull                        $3.31 / $11.03
+seasonal carry worth (0.33 pts)                         about $1.06
+parent cash only                                        $4.54
+target at 44% lawsuit odds                              $7.26
+since 8 Oct vs peers / vs market                        $1.04 / $0.26
