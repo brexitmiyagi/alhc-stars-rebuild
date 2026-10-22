@@ -55,6 +55,6 @@ Valuation history (EV = price x shares + debt - cash - short-term investments; n
   Gap from price to target: $1.27, of which the stars cost $0.98 and the multiple $0.29
 
 Convert check: at an 8% straight-debt cost the discount rate is 9.34% (vs 8.90%); stars cost $0.95 (vs $0.98); target $7.20; DCF at 3% margin $12.23. Conversion price about $16.04, far above the stock, so the notes are debt.
-Stars cost by odds of winning the 2027-ratings case: 0% $1.10, 25% $0.98, 50% $0.86, 100% $0.63; a win is worth $0.47; target at the 50% base rate $7.29
+Stars cost by odds of winning the 2027-ratings case: 0% $1.10, 25% $0.98, 44% $0.89, 50% $0.86, 100% $0.63; a win is worth $0.47; target at the 44% base rate (rulings counted once) $7.26, at 50% $7.29
 8 Oct: peer median 9.70x, comparable value before any stars cost $7.56 vs the $8.71 close (premium $1.15); 21 Oct: 10.69x, $8.15 vs $8.44 (premium $0.29)
 Street: 13 targets, mean $13.31, median $11; 3/7/4/0 strong buy/buy/hold/sell (14 recommendations); the 4 targets reset after the ratings average $10.75
