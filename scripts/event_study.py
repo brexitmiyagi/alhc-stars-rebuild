@@ -1,6 +1,6 @@
 """What the market actually charged for the star, and what it charged in September.
 
-Peer-relative returns around the two events, from daily closes in data/prices_daily_2026_09_08_to_10_21.csv.
+Peer-relative returns around the two events, from daily closes in data/prices_daily_2026_09_08_to_MM_DD.csv (ASOF, default 2026-10-21).
 Peers: UnitedHealth, Humana, Elevance, CVS, Centene, Molina, Cigna. Abnormal return = Alignment's return
 less the peer median return over the same window. Dollar figures are per share on the price before the event.
 """
@@ -8,7 +8,8 @@ import os
 import pandas as pd
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-px = pd.read_csv(os.path.join(HERE, '..', 'data', 'prices_daily_2026_09_08_to_10_21.csv'), index_col='date')
+ASOF = os.environ.get('ASOF', '2026-10-21')
+px = pd.read_csv(os.path.join(HERE, '..', 'data', f"prices_daily_2026_09_08_to_{ASOF[5:].replace('-', '_')}.csv"), index_col='date')
 PEERS = ['UNH', 'HUM', 'ELV', 'CVS', 'CNC', 'MOH', 'CI']
 out = []
 P = lambda s: (print(s), out.append(s))
@@ -28,9 +29,9 @@ P("Peers each day are " + ", ".join(PEERS))
 window('2026-09-14', '2026-09-16', 'Baird conference, claims and cost comments (15 Sep)')
 window('2026-09-16', '2026-10-08', 'Between the two events')
 window('2026-10-08', '2026-10-09', 'Star Ratings day (CMS release after the 8 Oct close)')
-window('2026-10-09', '2026-10-21', 'After the stars day')
-window('2026-10-08', '2026-10-21', 'Stars release to 21 Oct')
-window('2026-09-14', '2026-10-21', 'Whole period')
+window('2026-10-09', ASOF, 'After the stars day')
+window('2026-10-08', ASOF, f'Stars release to {int(ASOF[8:])} Oct')
+window('2026-09-14', ASOF, 'Whole period')
 r = px.loc['2026-10-09'] / px.loc['2026-10-08'] - 1
 P("Stars day by peer: " + ", ".join(f"{t} {r[t]:+.1%}" for t in PEERS))
 

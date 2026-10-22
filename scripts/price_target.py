@@ -1,4 +1,4 @@
-"""The price target at the 21 October close, with the review changes.
+"""The price target at the latest close (ASOF, default 2026-10-21; set ASOF=YYYY-MM-DD to roll), with the review changes.
 
 Changes from valuation_v10.py: closing prices (that file used prices pulled before the close), the P/E check
 dropped (at under 1% net margin after stock pay one point of cost ratio moves 2027 EPS by more than 100%, so a
@@ -39,13 +39,15 @@ REV28, E28, SBC28 = g('R8'), g('R16'), g('R19')
 HIT28 = -g('R15')
 
 SH, TAX, NOL = 215.024483, 0.24, 0.463
-PRICE = None  # set below from prices_2026_10_21.csv
+PRICE = None  # set below from the ASOF close file
+ASOF = os.environ.get('ASOF', '2026-10-21'); AS_ = ASOF.replace('-', '_')
+ASOF_LBL = f"{int(ASOF[8:])} Oct"
 RF, ERP, KD = 0.0515, 0.0420, 0.0425  # 10-year Treasury 5.15% on 19 Oct (FRED DGS10, latest on 22 Oct)
 reg = {k: float(v) for k, v in kv('regulatory_capital.csv').items()}
 CASH, DEBT, PARENT, DIVD = reg['consolidated_cash_and_st_inv_2026_06_30_musd'], reg['convertible_face_musd'], reg['parent_cash_2026_06_30_musd'], reg['dividendable_2025_12_31_musd']
 peers = [r for r in rd('peers_consensus_2026_10.csv') if r['ticker'] != 'ALHC']
 # prices rolled to the latest close (consensus EPS and EBITDA rechecked on Yahoo 22 Oct: unchanged)
-LATEST = {r['ticker']: float(r['close_2026_10_21']) for r in rd('prices_2026_10_21_close.csv')}
+LATEST = {r['ticker']: float(r[f'close_{AS_}']) for r in rd(f'prices_{AS_}_close.csv')}
 for r in peers: r['price_2026_10_16'] = str(LATEST[r['ticker']])
 cons = [r for r in rd('peers_consensus_2026_10.csv') if r['ticker'] == 'ALHC'][0]
 ev_m = {r['ticker']: (float(r['price_2026_10_16']) * float(r['shares_m']) + float(r['net_debt_2025_musd'])) / float(r['ebitda_2027_cons_musd']) for r in peers}
@@ -185,12 +187,12 @@ P("Stars cost by odds of winning the 2027-ratings case: " + ", ".join(f"{p:.0%} 
   + f"; a win is worth ${sl[0.0] - sl[1.0]:.2f}; target at the 44% base rate (rulings counted once) ${PT + STARS - sl[0.44]:.2f}, at 50% ${PT + STARS - sl[0.5]:.2f}")
 
 # ---- comparable value at the 8 October close, before CMS released the ratings
-d8 = {r['date']: r for r in rd('prices_daily_2026_09_08_to_10_21.csv')}['2026-10-08']
+d8 = {r['date']: r for r in rd(f'prices_daily_2026_09_08_to_{ASOF[5:].replace("-", "_")}.csv')}['2026-10-08']
 ev8 = {r['ticker']: (float(d8[r['ticker']]) * float(r['shares_m']) + float(r['net_debt_2025_musd'])) / float(r['ebitda_2027_cons_musd']) for r in peers}
 M8 = float(np.median(list(ev8.values())))
 v8 = (M8 * e_after(E27) - (DEBT - CASH)) / SH
 P(f"8 Oct: peer median {M8:.2f}x, comparable value before any stars cost ${v8:.2f} vs the ${float(d8['ALHC']):.2f} close (premium ${float(d8['ALHC']) - v8:.2f}); "
-  f"21 Oct: {MEV:.2f}x, ${PT + STARS:.2f} vs ${PRICE:.2f} (premium ${PRICE - PT - STARS:.2f})")
+  f"{ASOF_LBL}: {MEV:.2f}x, ${PT + STARS:.2f} vs ${PRICE:.2f} (premium ${PRICE - PT - STARS:.2f})")
 
 # ---- the Street, re-pulled 21 Oct
 an = kv('analysts_2026_10_21.csv'); post = [float(an[k]) for k in an if k.startswith('post_stars_target')]
