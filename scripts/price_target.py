@@ -180,9 +180,9 @@ S8.V.RATE = WACC
 def stars_at(p):
     c = 0.5 * S8.cost(p_win=p) + 0.25 * S8.cost(p_win=p, margin=0, margin_later=0) + 0.25 * S8.cost(p_win=p, margin=0, margin_later=0, growth_pts=0.10)
     return c * S8.V.shares / SH
-sl = {p: stars_at(p) for p in (0.0, 0.25, 0.5, 1.0)}
+sl = {p: stars_at(p) for p in (0.0, 0.25, 0.44, 0.5, 1.0)}
 P("Stars cost by odds of winning the 2027-ratings case: " + ", ".join(f"{p:.0%} ${v:.2f}" for p, v in sl.items())
-  + f"; a win is worth ${sl[0.0] - sl[1.0]:.2f}; target at the 50% base rate ${PT + STARS - sl[0.5]:.2f}")
+  + f"; a win is worth ${sl[0.0] - sl[1.0]:.2f}; target at the 44% base rate (rulings counted once) ${PT + STARS - sl[0.44]:.2f}, at 50% ${PT + STARS - sl[0.5]:.2f}")
 
 # ---- comparable value at the 8 October close, before CMS released the ratings
 d8 = {r['date']: r for r in rd('prices_daily_2026_09_08_to_10_21.csv')}['2026-10-08']

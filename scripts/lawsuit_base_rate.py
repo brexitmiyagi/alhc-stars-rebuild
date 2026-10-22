@@ -12,8 +12,12 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 c = pd.read_csv(os.path.join(HERE, '..', 'data', 'star_ratings_cases.csv'))
 known = c[c.outcome != 'unclear']
 wins = known.outcome.str.startswith('relief').sum()
+# SCAN and Elevance's Georgia contract were set aside by the same cut-point ruling, so count rulings, not plaintiffs
+ind = known.drop_duplicates('ruling_group')
+iw = ind.outcome.str.startswith('relief').sum()
 print(c[['plaintiff', 'rating_year', 'court', 'outcome']].to_string(index=False))
 lines = [f"Decided with a known outcome: {len(known)}; plan got relief in {wins} ({wins / len(known):.0%}); {len(c) - len(known)} unclear",
+         f"Counting each ruling once: relief in {iw} of {len(ind)} ({iw / len(ind):.0%})",
          "Wins came on errors in how CMS ran its own method or on measures it had no authority to use; losses came on plan-specific facts.",
          "Alignment's 2027 case asks for 10 measures to be struck (the Clover theory). Clover is on appeal, and CMS's own June recalculation",
          "on HEDIS, HOS and CAHPS only still leaves H3815 at 3.34, so 3.5 stars (h3815_scenarios.py). I keep 25% odds, below the base rate."]

@@ -26,8 +26,11 @@ daily = df.medical_expenses_kusd / 1e3 / df.days
 df['dcp_days'] = df.medical_expenses_payable_musd / daily
 df['unpaid_claims_days'] = df.claims_incurred_not_paid_musd / daily
 open_bal = {y: df[df.quarter_end == f"{y - 1}-12-31"].claims_incurred_not_paid_musd.squeeze() for y in (2024, 2025, 2026)}
+cyq = df.current_year_incurred_ytd_musd.diff()
+cyq[df.quarter_end.dt.month == 3] = df.current_year_incurred_ytd_musd[df.quarter_end.dt.month == 3]
+df['claims_only_days'] = df.claims_incurred_not_paid_musd / (cyq / df.days)
 df['pyd_pct_of_opening'] = [p / open_bal[d.year] * 100 if pd.notna(p) else None for p, d in zip(df.pyd_ex_pad_quarter_musd, df.quarter_end)]
-out = df[['quarter_end', 'medical_expenses_kusd', 'medical_expenses_payable_musd', 'dcp_days', 'claims_incurred_not_paid_musd', 'unpaid_claims_days', 'pyd_ex_pad_quarter_musd', 'pyd_pct_of_opening']].round(2)
+out = df[['quarter_end', 'medical_expenses_kusd', 'medical_expenses_payable_musd', 'dcp_days', 'claims_incurred_not_paid_musd', 'unpaid_claims_days', 'claims_only_days', 'pyd_ex_pad_quarter_musd', 'pyd_pct_of_opening']].round(2)
 pd.set_option('display.width', 200)
 print(out.to_string(index=False))
 out.to_csv(os.path.join(HERE, '..', 'results', 'reserves.csv'), index=False)
@@ -37,9 +40,12 @@ y24 = df[df.quarter_end.dt.year == 2024]
 lines = [
     f"Days claims payable: 2024 range {y24.dcp_days.min():.1f}-{y24.dcp_days.max():.1f}; peak {df.dcp_days.max():.1f} at {df.loc[df.dcp_days.idxmax(), 'quarter_end']:%b %Y}; now {last.dcp_days:.1f}",
     f"Unpaid-claims days: 2024 range {y24.unpaid_claims_days.min():.1f}-{y24.unpaid_claims_days.max():.1f}; {prev.unpaid_claims_days:.1f} in Mar 2026, {last.unpaid_claims_days:.1f} in Jun 2026",
+    f"Unpaid-claims days on claims alone (unpaid / current-year claims through the reserve): 2024 range {y24.claims_only_days.min():.1f}-{y24.claims_only_days.max():.1f}; peak {df.claims_only_days.max():.1f}; {prev.claims_only_days:.1f} in Mar 2026, {last.claims_only_days:.1f} in Jun 2026",
     f"One day of medical expenses in Q2 2026: ${last.medical_expenses_kusd / 1e3 / last.days:.1f}m",
     f"Prior-year development ex-PAD: 2024 ${df[df.quarter_end.dt.year == 2024].pyd_ex_pad_quarter_musd.sum():.1f}m favorable, 2025 ${df[df.quarter_end.dt.year == 2025].pyd_ex_pad_quarter_musd.sum():.1f}m, "
     f"Q1 2026 ${prev.pyd_ex_pad_quarter_musd:+.1f}m, Q2 2026 ${last.pyd_ex_pad_quarter_musd:+.1f}m (first unfavorable quarter in the series)",
+    f"2025 favorable development ex-PAD ${df[df.quarter_end.dt.year == 2025].pyd_ex_pad_quarter_musd.sum():.1f}m against 2025 adj. EBITDA $109.9m ({df[df.quarter_end.dt.year == 2025].pyd_ex_pad_quarter_musd.sum() / 109.9:.0%}) and EBITDA after stock pay $47.8m ({df[df.quarter_end.dt.year == 2025].pyd_ex_pad_quarter_musd.sum() / 47.8:.0%}); H1 2026 ${df[df.quarter_end >= '2026-01-01'].pyd_ex_pad_quarter_musd.sum():+.1f}m",
+    "Q2 2026 unfavorable development of $6.5m is 0.49 points of Q2 revenue ($1,335.6m)",
     "Prior-year claims paid in the first half: 2025 $127.1m against a $168.4m opening balance (76%); 2026 $245.4m against $297.4m (83%) (10-Q Q2 2026 reserve table)",
 ]
 for l in lines: print(l)

@@ -17,8 +17,11 @@ def window(a, b, label):
     r = px.loc[b] / px.loc[a] - 1
     med = r[PEERS].median()
     ab = r['ALHC'] - med
+    p0 = px.loc[a, 'ALHC']
+    exh = r['ALHC'] - r[[t for t in PEERS if t != 'HUM']].median()
+    mkt = r['ALHC'] - 1.14 * r['SPX']  # Alignment's 5-year beta
     P(f"{label} ({a} close to {b} close): Alignment {r['ALHC']:+.1%}, peer median {med:+.1%}, S&P 500 {r['SPX']:+.1%}; "
-      f"abnormal {ab:+.1%}, about ${ab * px.loc[a, 'ALHC']:+.2f} a share on ${px.loc[a, 'ALHC']:.2f}")
+      f"abnormal vs peers {ab:+.1%} (${ab * p0:+.2f}), vs peers without Humana {exh:+.1%} (${exh * p0:+.2f}), vs the market at beta 1.14 {mkt:+.1%} (${mkt * p0:+.2f})")
     return ab
 
 P("Peers each day are " + ", ".join(PEERS))
