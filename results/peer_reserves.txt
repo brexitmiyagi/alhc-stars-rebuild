@@ -1,0 +1,11 @@
+year    2024  2025
+ticker            
+ALHC    0.34  0.64
+CNC     1.50  1.19
+ELV     0.98  0.65
+HUM     0.60  0.79
+MOH     1.66  0.22
+UNH     0.17  0.03
+2025: Alignment 0.64% vs peer median 0.65% (range 0.03-1.19); 2024: 0.34% vs 0.98%
+Alignment H1 2026 reported: $17.8m favorable on $2,570.8m revenue (0.69%); ex-PAD: $1.8m (0.07%)
+Stock pay as a share of EBITDA: Alignment 2027E 37.1% ($76.3m of $205.6m adjusted EBITDA); peers, 2025 stock pay over 2027 consensus EBITDA: UNH 2.9%, ELV 2.6%, CVS 2.6%, CNC 6.3%, MOH 4.7%, CI 2.1% (median 2.7%)

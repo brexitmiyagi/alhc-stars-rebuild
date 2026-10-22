@@ -1,0 +1,13 @@
+           quarter                  region  hospitals  MA days yoy %  MA discharges yoy %  MA days per discharge  MA days per discharge a year earlier  Traditional Medicare days yoy %  MA share of Medicare days %
+Q3 2025 vs Q3 2024             LA + Orange        126            4.0                  5.8                   5.47                                  5.57                              4.6                         40.1
+Q3 2025 vs Q3 2024      Rest of California        301            1.2                  3.3                   5.33                                  5.44                            -11.0                         38.1
+Q4 2025 vs Q4 2024             LA + Orange        128            5.8                  5.4                   5.63                                  5.61                             16.8                         39.6
+Q4 2025 vs Q4 2024      Rest of California        299            3.9                  4.3                   5.47                                  5.50                              1.9                         35.3
+Q1 2026 vs Q1 2025             LA + Orange        126            4.6                  6.4                   5.72                                  5.82                             16.1                         39.7
+Q1 2026 vs Q1 2025      Rest of California        306            1.0                  2.0                   5.61                                  5.67                              5.7                         35.1
+Q3 2025 vs Q3 2024 Alignment's CA counties        343            2.4                  4.5                   5.39                                  5.51                             -7.6                         41.5
+Q3 2025 vs Q3 2024       Other CA counties         84            0.1                 -0.3                   5.18                                  5.16                              0.5                         19.9
+Q4 2025 vs Q4 2024 Alignment's CA counties        345            4.8                  5.0                   5.54                                  5.55                              6.8                         39.0
+Q4 2025 vs Q4 2024       Other CA counties         82            1.0                  0.6                   5.32                                  5.30                              3.2                         19.7
+Q1 2026 vs Q1 2025 Alignment's CA counties        349            2.8                  4.2                   5.67                                  5.75                              8.1                         38.9
+Q1 2026 vs Q1 2025       Other CA counties         83           -6.0                 -5.6                   5.37                                  5.40                             13.4                         19.3
