@@ -4,3 +4,4 @@ date,price,shares_m,debt_musd,cash_musd,st_inv_musd,members_k,next_year_revenue_
 2025-12-31,19.75,204.296493,323.176,575.817,28.413,236.3,5210,145.2,"members Q4 2025 release; 2026 = my estimate (guidance low end)"
 2026-10-16,8.28,207.435149,324.056,693.453,8.258,294.1,6475.5,205.6,"price 16 Oct close; balance sheet 30 Jun 2026; members Q2 2026; 2027 = my estimate"
 2026-10-21,8.44,207.435149,324.056,693.453,8.258,294.1,6475.5,205.6,"price 21 Oct close; balance sheet 30 Jun 2026; members Q2 2026; 2027 = my estimate"
+2026-10-22,8.43,207.435149,324.056,693.453,8.258,294.1,6475.5,205.6,"price 22 Oct close (Nasdaq official, Yahoo agrees); balance sheet 30 Jun 2026; members Q2 2026; 2027 = my estimate"

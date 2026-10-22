@@ -1,0 +1,15 @@
+item,value,source
+yahoo_targets_n,13,"Yahoo Finance quoteSummary financialData, pulled 22 Oct 2026 ~15:55 UTC"
+yahoo_target_mean,12.31,same
+yahoo_target_median,11.00,same
+yahoo_target_low,9.00,same
+yahoo_target_high,26.00,same
+yahoo_recs_strongbuy_buy_hold_sell,3/7/4/0,"Yahoo recommendationTrend, current month"
+reset_jpmorgan,10,"MarketBeat ratings table (9 Oct, 22->10, Overweight); MarketBeat instant alert"
+reset_keybanc,12,"MarketBeat ratings table (KeyCorp, 9 Oct, 28->12, Overweight)"
+reset_td_cowen,12,"MarketBeat (12 Oct, 21->12, Buy); Investing.com; TheFly via StockAnalysis news"
+reset_ubs,9,"MarketBeat (12 Oct, 22->9, Neutral); Investing.com; TheFly via StockAnalysis news"
+reset_scotiabank,9,"MarketBeat ratings table only (9 Oct, set target 9); single source, not named in the article"
+short_interest_2026_09_30,23606597,"Yahoo defaultKeyStatistics and MarketBeat short-interest page"
+short_pct_float,11.7-12.0,"Yahoo 11.7%; MarketBeat 12.0%"
+days_to_cover,1.6-2.2,"MarketBeat 1.61; Yahoo 2.18"
