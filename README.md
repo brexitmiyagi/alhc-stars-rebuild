@@ -40,6 +40,7 @@ python3 scripts/valuation_v10.py    # 22 Oct pre-close version of the target (ke
 python3 scripts/price_target.py     # the price target now, at the 21 Oct close: one primary method, checks, convert and lawsuit-odds lines, 8 Oct comparable value
 python3 scripts/event_study.py      # what the market charged for the star and for September, against peers
 python3 scripts/article_numbers.py  # every price-linked figure in the article, read from the two results above
+python3 scripts/peer_multiple_history.py  # the same method on every close since 8 Sep: how much of the target is the day's peer multiple
 # to roll to a later close: add data/prices_YYYY_MM_DD_close.csv and data/prices_daily_2026_09_08_to_MM_DD.csv,
 # then run the three lines above with ASOF=YYYY-MM-DD (the default, 2026-10-21, reproduces the published numbers)
 python3 scripts/reserves.py         # days claims payable, unpaid-claims days, prior-year development by quarter
