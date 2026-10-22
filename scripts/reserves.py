@@ -42,6 +42,7 @@ lines = [
     f"Unpaid-claims days: 2024 range {y24.unpaid_claims_days.min():.1f}-{y24.unpaid_claims_days.max():.1f}; {prev.unpaid_claims_days:.1f} in Mar 2026, {last.unpaid_claims_days:.1f} in Jun 2026",
     f"Unpaid-claims days on claims alone (unpaid / current-year claims through the reserve): 2024 range {y24.claims_only_days.min():.1f}-{y24.claims_only_days.max():.1f}; peak {df.claims_only_days.max():.1f}; {prev.claims_only_days:.1f} in Mar 2026, {last.claims_only_days:.1f} in Jun 2026",
     f"One day of medical expenses in Q2 2026: ${last.medical_expenses_kusd / 1e3 / last.days:.1f}m",
+    f"One day of claims through the reserve in Q2 2026 (current-year incurred / days): ${cyq.iloc[-1] / last.days:.2f}m",
     f"Prior-year development ex-PAD: 2024 ${df[df.quarter_end.dt.year == 2024].pyd_ex_pad_quarter_musd.sum():.1f}m favorable, 2025 ${df[df.quarter_end.dt.year == 2025].pyd_ex_pad_quarter_musd.sum():.1f}m, "
     f"Q1 2026 ${prev.pyd_ex_pad_quarter_musd:+.1f}m, Q2 2026 ${last.pyd_ex_pad_quarter_musd:+.1f}m (first unfavorable quarter in the series)",
     f"2025 favorable development ex-PAD ${df[df.quarter_end.dt.year == 2025].pyd_ex_pad_quarter_musd.sum():.1f}m against 2025 adj. EBITDA $109.9m ({df[df.quarter_end.dt.year == 2025].pyd_ex_pad_quarter_musd.sum() / 109.9:.0%}) and EBITDA after stock pay $47.8m ({df[df.quarter_end.dt.year == 2025].pyd_ex_pad_quarter_musd.sum() / 47.8:.0%}); H1 2026 ${df[df.quarter_end >= '2026-01-01'].pyd_ex_pad_quarter_musd.sum():+.1f}m",
