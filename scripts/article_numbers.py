@@ -9,7 +9,7 @@ import os, re
 HERE = os.path.dirname(os.path.abspath(__file__))
 R = lambda f: open(os.path.join(HERE, '..', 'results', f)).read()
 pt, es = R('price_target.txt'), R('event_study.txt')
-ASOF = os.environ.get('ASOF', '2026-10-21')
+ASOF = os.environ.get('ASOF', '2026-10-22')
 f = lambda pat, s=pt, g=1: re.search(pat, s).group(g)
 
 price = float(f(r'vs \$([\d.]+) \(premium \$[\d.]+\)\nStreet'))

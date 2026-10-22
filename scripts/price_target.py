@@ -1,4 +1,4 @@
-"""The price target at the latest close (ASOF, default 2026-10-21; set ASOF=YYYY-MM-DD to roll), with the review changes.
+"""The price target at the latest close (ASOF, default 2026-10-22; set ASOF=YYYY-MM-DD to roll), with the review changes.
 
 Changes from valuation_v10.py: closing prices (that file used prices pulled before the close), the P/E check
 dropped (at under 1% net margin after stock pay one point of cost ratio moves 2027 EPS by more than 100%, so a
@@ -40,7 +40,7 @@ HIT28 = -g('R15')
 
 SH, TAX, NOL = 215.024483, 0.24, 0.463
 PRICE = None  # set below from the ASOF close file
-ASOF = os.environ.get('ASOF', '2026-10-21'); AS_ = ASOF.replace('-', '_')
+ASOF = os.environ.get('ASOF', '2026-10-22'); AS_ = ASOF.replace('-', '_')
 ASOF_LBL = f"{int(ASOF[8:])} Oct"
 RF, ERP, KD = 0.0515, 0.0420, 0.0425  # 10-year Treasury 5.15% on 19 Oct (FRED DGS10, latest on 22 Oct)
 reg = {k: float(v) for k, v in kv('regulatory_capital.csv').items()}

@@ -11,7 +11,7 @@ import numpy as np
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 D = lambda f: os.path.join(HERE, '..', 'data', f)
-ASOF = os.environ.get('ASOF', '2026-10-21')
+ASOF = os.environ.get('ASOF', '2026-10-22')
 peers = [r for r in csv.DictReader(open(D('peers_consensus_2026_10.csv'))) if r['ticker'] != 'ALHC']
 days = list(csv.DictReader(open(D(f"prices_daily_2026_09_08_to_{ASOF[5:].replace('-', '_')}.csv"))))
 pt = open(os.path.join(HERE, '..', 'results', 'price_target.txt')).read()

@@ -1,6 +1,6 @@
 """What the market actually charged for the star, and what it charged in September.
 
-Peer-relative returns around the two events, from daily closes in data/prices_daily_2026_09_08_to_MM_DD.csv (ASOF, default 2026-10-21).
+Peer-relative returns around the two events, from daily closes in data/prices_daily_2026_09_08_to_MM_DD.csv (ASOF, default 2026-10-22).
 Peers: UnitedHealth, Humana, Elevance, CVS, Centene, Molina, Cigna. Abnormal return = Alignment's return
 less the peer median return over the same window. Dollar figures are per share on the price before the event.
 """
@@ -8,7 +8,7 @@ import os
 import pandas as pd
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-ASOF = os.environ.get('ASOF', '2026-10-21')
+ASOF = os.environ.get('ASOF', '2026-10-22')
 px = pd.read_csv(os.path.join(HERE, '..', 'data', f"prices_daily_2026_09_08_to_{ASOF[5:].replace('-', '_')}.csv"), index_col='date')
 PEERS = ['UNH', 'HUM', 'ELV', 'CVS', 'CNC', 'MOH', 'CI']
 out = []
