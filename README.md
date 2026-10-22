@@ -1,6 +1,6 @@
 # alhc-stars-rebuild
 
-This is the data and code behind my October 2026 piece on Alignment Healthcare (ALHC), "The Star Cost $1 In A Day, The Earnings Base Is The Bigger Problem", and the eight-page research note in `note/` (rating, estimates, financial summary, valuation, risks). Earlier drafts had other titles. See Corrections at the bottom.
+This is the data and code behind my October 2026 piece on Alignment Healthcare (ALHC), "The Star Cost $1.25 In A Day, The Cost Base Is The Bigger Problem", and the eight-page research note in `note/` (rating, estimates, financial summary, valuation, risks). Earlier drafts had other titles. See Corrections at the bottom.
 
 On October 8 CMS cut Alignment's California HMO, contract H3815, from 4 stars to 3.5. I wanted to know three things. Why it fell, what the lawsuit can actually fix, and what the lost bonus is worth in dollars. So I rebuilt CMS's 2027 Star Ratings for every contract from the published measure stars, checked the rebuild against everything CMS and the companies published, and then reran H3815 and the whole industry under the measure sets the courts are fighting over.
 
@@ -44,7 +44,13 @@ python3 scripts/lawsuit_base_rate.py # how often plans win star-ratings cases
 python3 scripts/pbp_extract.py /path/to/pbp-benefits-2027.zip  # rebuilds data/pbp_2027_la_oc.csv from CMS's file
 python3 scripts/benefits_2027.py    # Alignment's 2027 LA and Orange County plans against seven rivals, plan counts
 python3 scripts/enrollment_extract.py /path/to/cpsc_enrollment_2026_10.zip /path/to/plan_crosswalk_2027.zip  # rebuilds the enrollment and crosswalk extracts
-python3 scripts/benefits_weighted.py # the same comparison weighted by members
+python3 scripts/benefits_weighted.py # the same comparison weighted by members (LA and Orange only)
+python3 scripts/benefits_all_counties_extract.py pbp-benefits-2027.zip cpsc_enrollment_2026_10.zip plan_crosswalk_2027.zip  # all 55 Alignment counties
+python3 scripts/benefits_all_counties.py  # members-weighted, general / C-SNP / D-SNP
+python3 scripts/hcai_extract.py /folder/with/hcai/xlsx  # HCAI quarterly hospital files, Q3 2024-Q1 2026
+python3 scripts/hcai_hospital_use.py # Medicare Advantage hospital days, LA + Orange vs the rest of California
+python3 scripts/peer_reserves.py     # prior-year development vs peers; stock pay as a share of EBITDA
+python3 scripts/q3_preview.py        # the 29 October preview table
 python3 scripts/financial_summary.py # financial summary page and estimates vs consensus
 python3 scripts/contract_model.py   # contract-level model: members, stars, bonus status, revenue by contract; writes model/ALHC_contract_model.xlsx
 # older: forward_2028.py, value_v3.py ... value_v7.py are kept for the record
@@ -77,6 +83,9 @@ The output of my own run is in `results/`, one text file per script.
 - `lawsuit_base_rate.py` counts decided district-court star-ratings cases: relief in 5 of 10 with a known outcome, 4 of 9 counting each ruling once (SCAN and Elevance's Georgia contract came out of one ruling).
 - `enrollment_extract.py` and `benefits_weighted.py` weight each 2027 plan by the October 2026 members of the plans CMS's crosswalk carries into it. Giveback plus allowance: Alignment $1,479 a member a year, the other seven $284.
 - `pbp_extract.py` and `benefits_2027.py` compare 2027 benefits in Los Angeles and Orange County from CMS's plan benefit file: Alignment's average Part B giveback is $560 a year and its median allowance $675, the most of the eight parents, and its median in-network MOOP $2,499 is the second highest.
+- `benefits_all_counties_extract.py` and `benefits_all_counties.py` cover every county where Alignment sells a 2027 plan (55 in CA, NC, NV, AZ, TX) and 284,846 of its 301,157 members. General plans: giveback $439 plus allowance $384 a member a year against $151 plus $157 for all rivals and $99 plus $284 for SCAN. Chronic-condition plans: allowance $2,250 against $1,465.
+- `hcai_extract.py` and `hcai_hospital_use.py` use HCAI's quarterly hospital filings (matched hospitals). Medicare Advantage inpatient days in LA and Orange: +4.0%, +5.8%, +4.6% a year in Q3 2025, Q4 2025 and Q1 2026, against +1.2%, +3.9%, +1.0% in the rest of California; +2.4%, +4.8%, +2.8% across Alignment's 25 California counties. Days per discharge flat.
+- `peer_reserves.py`: Alignment's 2025 release was 0.64% of revenue, the peer median (UnitedHealth 0.03%, Molina 0.22%, Elevance 0.65%, Humana 0.79%, Centene 1.19%). Stock pay: 37% of Alignment's 2027 adjusted EBITDA against a 2.7% peer median.
 - `contract_model.py` splits Alignment by Medicare contract from CMS's October 2026 enrollment file, the 2027 Star Ratings and the 2027 rate book. H3815 has 225,609 of 301,157 members (75%) and about $4.9bn of my $6.5bn 2027 revenue; every other rated contract is at 4 stars or more; members in bonus-earning contracts fall from nearly all in 2027 payments to 25% in 2028. Revenue is allocated by members x county benchmark, which assumes similar risk scores and bids across contracts.
 - `financial_summary.py` writes the 2025-2028 financial summary and the estimates-vs-consensus table used in the note.
 - `valuation_bank.py` was the v9 target (three methods averaged); kept for the record. It values my 2027 numbers three ways: peer-median forward P/E (14.5x on Yahoo adjusted EPS), peer-median forward EV/EBITDA (10.3x on S&P Global consensus 2027 EBITDA from MarketScreener, with consolidated net debt) and a DCF to 2036. Stock pay is expensed because the peers' numbers are after it, and Alignment's cash is netted the same way as the peers'. It prints every other choice too: $9.59 with stock pay left out, about $6.20 with parent-only cash, $6.67 weighted across the cost-ratio cases, the margin the price implies in the DCF, the growth-adjusted P/E, and the Molina-Bright takeout check. Base $7.10.
@@ -165,6 +174,7 @@ The output of my own run is in `results/`, one text file per script.
 
 ## Things to be careful with
 
+- `hcai_hospital_use.py` counts hospital days for every Medicare Advantage plan, not Alignment's own, and does not net out county enrollment growth. HCAI's traditional Medicare columns jump around between quarters, so I don't lean on them.
 - `benefits_2027.py` counts plans, not members, because CMS's benefit file has no enrollment. Allowances are plan maximums, not spend, and an allowance inside a combined benefit can overlap the OTC line.
 - `reserves.py`: the unpaid-claims line is the actuarial estimate; the rest of the payable is capitation and risk-sharing owed to provider groups. Q4 development is the annual figure less nine months.
 - `event_study.py` uses a simple peer median, not a regression on beta. The 8% straight-debt cost in `price_target.py` is my assumption, not a market quote.
@@ -190,6 +200,8 @@ The output of my own run is in `results/`, one text file per script.
 - CY2027 final rule: https://www.federalregister.gov/documents/2026/04/06/2026-06600/ (text used from govinfo.gov, FR-2026-04-06/2026-06600).
 
 ## Corrections
+
+- 22 October 2026, v16, before publication. v15 said reserve releases were "18% of adjusted EBITDA, 42% after stock pay" and that "that source has run dry". On the reported basis Alignment's 2025 release was the peer median (`peer_reserves.py`) and its first half of 2026 is still $17.8m favorable; only the ex-PAD figure turned adverse. v15 also compared LA and Orange plans against a seven-rival average pulled down by Kaiser; v16 covers all 55 counties and names SCAN. Target and rating unchanged.
 
 - 22 October 2026, v15, before publication. v14's unpaid-claims days divided by total medical costs, which include capitation; `reserves.py` now also divides by the claims that go through the reserve (62 days in June, inside 2024's 59-73, where v14 said 21.3). The event study now shows three benchmarks; the $1.04 since 8 October is $0.26 against the market. The lawsuit base rate counts each ruling once (4 of 9). v14 cited a Stocktwits report of "over $6 million" of reserve losses from the claims conversion; v15 drops it and uses the 10-Q. Target and rating unchanged (Sell, $7.17).
 
