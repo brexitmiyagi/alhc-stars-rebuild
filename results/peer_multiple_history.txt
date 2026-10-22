@@ -30,7 +30,8 @@
 2026-10-19: peer median 10.45x, value after the stars cost $7.03, Alignment $8.40
 2026-10-20: peer median 10.94x, value after the stars cost $7.33, Alignment $8.51
 2026-10-21: peer median 10.69x, value after the stars cost $7.18, Alignment $8.44
+2026-10-22: peer median 10.78x, value after the stars cost $7.23, Alignment $8.43
 
-32 closes, 2026-09-08 to 2026-10-21: peer multiple 9.11x to 10.94x (median 9.79x); value $6.23 to $7.33 (median $6.64)
-Last 20 closes: median multiple 9.71x, value $6.59
-Closes where the value was below Alignment's price: 32 of 32; latest multiple's rank: 31 of 32 (1 = lowest)
+33 closes, 2026-09-08 to 2026-10-22: peer multiple 9.11x to 10.94x (median 9.80x); value $6.23 to $7.33 (median $6.65)
+Last 20 closes: median multiple 9.74x, value $6.61
+Closes where the value was below Alignment's price: 33 of 33; latest multiple's rank: 32 of 33 (1 = lowest)
