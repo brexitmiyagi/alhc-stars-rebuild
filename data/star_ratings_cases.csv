@@ -1,13 +1,13 @@
-plaintiff,rating_year,court,outcome,issue,sources
-SCAN Health Plan,2024,D.D.C.,relief,cut-point method; 2024 rating set aside (June 2024),Healthcare Dive; SCAN release; Georgetown tracker
-Elevance (BCBS Healthcare Plan of Georgia),2024,D.D.C.,relief,2024 rating set aside with the SCAN ruling,Milliman; Georgetown tracker
-UnitedHealthcare Benefits of Texas,2025,E.D. Tex.,relief,call-center calls wrongly counted; CMS revised ratings,Healthcare Dive; Georgetown tracker
-Alignment Healthcare,2025,D.D.C.,relief (partial),two appeals measures arbitrary; Arizona HMO 3.5 to 4.0,Fierce Healthcare; Georgetown tracker (summary judgment granted in part)
-Clover Insurance,2026,S.D. Ga.,relief,20 measures without statutory basis or rulemaking; 3.5 to 4.5; on appeal,Beckers; Georgetown tracker
-Elevance Health,2025,N.D. Tex.,loss,rounding and measure adjustments; Aug 2025,Healthcare Dive 20 Aug 2025
-Humana,2025,N.D. Tex.,loss,first suit on 2025 ratings,Healthcare Finance News; Georgetown tracker
-Humana,2025,N.D. Tex.,loss,"second suit, call-center calls; Oct 2025; on appeal to 5th Cir.",Healthcare Finance News; Modern Healthcare; Georgetown tracker
-Florida Blue,2025,D.D.C.,loss,disaster adjustment,Healthcare Dive; Fierce Healthcare
-HMO Louisiana,2025,D.D.C.,loss,contract consolidation; affirmed by D.C. Cir. 26 Jun 2026,Beckers; Justia
-Zing Health,2024,D.D.C.,unclear,rating recalculated after SCAN; suit later dismissed,Georgetown tracker; CourtListener
-BCBS Massachusetts,2025,D.D.C.,unclear,"decision issued, outcome not found",Georgetown tracker
+plaintiff,rating_year,court,outcome,issue,sources,ruling_group
+SCAN Health Plan,2024,D.D.C.,relief,cut-point method; 2024 rating set aside (June 2024),Healthcare Dive; SCAN release; Georgetown tracker,SCAN cut-point ruling (June 2024)
+Elevance (BCBS Healthcare Plan of Georgia),2024,D.D.C.,relief,2024 rating set aside with the SCAN ruling,Milliman; Georgetown tracker,SCAN cut-point ruling (June 2024)
+UnitedHealthcare Benefits of Texas,2025,E.D. Tex.,relief,call-center calls wrongly counted; CMS revised ratings,Healthcare Dive; Georgetown tracker,UnitedHealthcare Benefits of Texas 2025
+Alignment Healthcare,2025,D.D.C.,relief (partial),two appeals measures arbitrary; Arizona HMO 3.5 to 4.0,Fierce Healthcare; Georgetown tracker (summary judgment granted in part),Alignment Healthcare 2025
+Clover Insurance,2026,S.D. Ga.,relief,20 measures without statutory basis or rulemaking; 3.5 to 4.5; on appeal,Beckers; Georgetown tracker,Clover Insurance 2026
+Elevance Health,2025,N.D. Tex.,loss,rounding and measure adjustments; Aug 2025,Healthcare Dive 20 Aug 2025,Elevance Health 2025
+Humana,2025,N.D. Tex.,loss,first suit on 2025 ratings,Healthcare Finance News; Georgetown tracker,Humana 2025
+Humana,2025,N.D. Tex.,loss,"second suit, call-center calls; Oct 2025; on appeal to 5th Cir.",Healthcare Finance News; Modern Healthcare; Georgetown tracker,Humana 2025 2
+Florida Blue,2025,D.D.C.,loss,disaster adjustment,Healthcare Dive; Fierce Healthcare,Florida Blue 2025
+HMO Louisiana,2025,D.D.C.,loss,contract consolidation; affirmed by D.C. Cir. 26 Jun 2026,Beckers; Justia,HMO Louisiana 2025
+Zing Health,2024,D.D.C.,unclear,rating recalculated after SCAN; suit later dismissed,Georgetown tracker; CourtListener,Zing Health 2024
+BCBS Massachusetts,2025,D.D.C.,unclear,"decision issued, outcome not found",Georgetown tracker,BCBS Massachusetts 2025
