@@ -1,0 +1,36 @@
+2026-09-08: peer median 9.73x, value after the stars cost $6.60, Alignment $13.46
+2026-09-09: peer median 9.61x, value after the stars cost $6.53, Alignment $13.03
+2026-09-10: peer median 9.93x, value after the stars cost $6.72, Alignment $12.76
+2026-09-11: peer median 10.14x, value after the stars cost $6.85, Alignment $12.61
+2026-09-14: peer median 10.65x, value after the stars cost $7.15, Alignment $12.94
+2026-09-15: peer median 10.28x, value after the stars cost $6.93, Alignment $10.37
+2026-09-16: peer median 10.03x, value after the stars cost $6.78, Alignment $8.71
+2026-09-17: peer median 10.18x, value after the stars cost $6.87, Alignment $8.70
+2026-09-18: peer median 9.96x, value after the stars cost $6.74, Alignment $8.35
+2026-09-21: peer median 9.80x, value after the stars cost $6.65, Alignment $8.33
+2026-09-22: peer median 9.46x, value after the stars cost $6.44, Alignment $7.99
+2026-09-23: peer median 9.37x, value after the stars cost $6.38, Alignment $7.86
+2026-09-24: peer median 9.57x, value after the stars cost $6.51, Alignment $7.67
+2026-09-25: peer median 9.44x, value after the stars cost $6.43, Alignment $8.21
+2026-09-28: peer median 9.38x, value after the stars cost $6.39, Alignment $7.93
+2026-09-29: peer median 9.37x, value after the stars cost $6.38, Alignment $7.91
+2026-09-30: peer median 9.35x, value after the stars cost $6.37, Alignment $8.16
+2026-10-01: peer median 9.11x, value after the stars cost $6.23, Alignment $7.74
+2026-10-02: peer median 9.41x, value after the stars cost $6.41, Alignment $7.94
+2026-10-05: peer median 9.61x, value after the stars cost $6.53, Alignment $8.50
+2026-10-06: peer median 9.67x, value after the stars cost $6.56, Alignment $8.37
+2026-10-07: peer median 9.71x, value after the stars cost $6.59, Alignment $8.55
+2026-10-08: peer median 9.70x, value after the stars cost $6.58, Alignment $8.71
+2026-10-09: peer median 9.77x, value after the stars cost $6.62, Alignment $7.54
+2026-10-12: peer median 10.15x, value after the stars cost $6.85, Alignment $8.09
+2026-10-13: peer median 10.41x, value after the stars cost $7.01, Alignment $8.30
+2026-10-14: peer median 10.50x, value after the stars cost $7.06, Alignment $8.23
+2026-10-15: peer median 10.57x, value after the stars cost $7.10, Alignment $8.15
+2026-10-16: peer median 10.35x, value after the stars cost $6.97, Alignment $8.28
+2026-10-19: peer median 10.45x, value after the stars cost $7.03, Alignment $8.40
+2026-10-20: peer median 10.94x, value after the stars cost $7.33, Alignment $8.51
+2026-10-21: peer median 10.69x, value after the stars cost $7.18, Alignment $8.44
+
+32 closes, 2026-09-08 to 2026-10-21: peer multiple 9.11x to 10.94x (median 9.79x); value $6.23 to $7.33 (median $6.64)
+Last 20 closes: median multiple 9.71x, value $6.59
+Closes where the value was below Alignment's price: 32 of 32; latest multiple's rank: 31 of 32 (1 = lowest)
